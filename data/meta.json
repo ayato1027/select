@@ -1,0 +1,6 @@
+{
+  "_comment": "全体勝率データ取得(フェーズ3)は未実装。coefficientsに未掲載のキャラはメタ係数0として扱われる。",
+  "updatedAt": null,
+  "patchVersion": "",
+  "coefficients": {}
+}

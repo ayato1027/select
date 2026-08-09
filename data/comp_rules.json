@@ -1,0 +1,52 @@
+{
+  "rules": [
+    {
+      "id": "need_range_control_gem_hotzone",
+      "when": {
+        "modes": ["gemGrab", "hotZone"],
+        "teamLacksRoles": ["sniper", "area_control", "mid_dps"]
+      },
+      "then": { "bonusToRoles": ["sniper", "area_control", "mid_dps"], "value": 1 },
+      "note": "コントロール系モードで長射程・制圧系が0体なら候補が該当ロールなら加点"
+    },
+    {
+      "id": "no_double_assassin",
+      "when": { "teamHasRoleCount": { "assassin": 1 } },
+      "then": { "bonusToRoles": ["assassin"], "value": -1 },
+      "note": "アサシン2体目は役割重複"
+    },
+    {
+      "id": "need_tank_heist",
+      "when": {
+        "modes": ["heist"],
+        "teamLacksRoles": ["dive_tank", "anchor_tank"]
+      },
+      "then": { "bonusToRoles": ["dive_tank", "anchor_tank"], "value": 1 },
+      "note": "強奪は金庫前の壁役がいないと押し込まれやすい"
+    },
+    {
+      "id": "need_poke_bounty",
+      "when": {
+        "modes": ["bounty"],
+        "teamLacksRoles": ["sniper", "mid_dps"]
+      },
+      "then": { "bonusToRoles": ["sniper", "mid_dps"], "value": 1 },
+      "note": "賞金稼ぎはキル獲得のための削り性能が不足しがちなら加点"
+    },
+    {
+      "id": "no_double_dive_tank",
+      "when": { "teamHasRoleCount": { "dive_tank": 1 } },
+      "then": { "bonusToRoles": ["dive_tank"], "value": -1 },
+      "note": "突進タンク2体目は前衛が渋滞し役割が重複"
+    },
+    {
+      "id": "need_heal_knockout",
+      "when": {
+        "modes": ["knockOut"],
+        "teamLacksRoles": ["heal_support"]
+      },
+      "then": { "bonusToRoles": ["heal_support"], "value": 1 },
+      "note": "ノックアウトは復活がないため回復サポート不在だと事故りやすい"
+    }
+  ]
+}

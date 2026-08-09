@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>データ管理 | ブロスタ ピック支援</title>
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/admin.css" />
+</head>
+<body>
+<header class="app-header">
+  <h1>データ管理</h1>
+  <a class="admin-link" href="index.html" title="メイン画面へ">← 戻る</a>
+</header>
+
+<div id="loading" class="loading">読み込み中...</div>
+
+<main id="admin" class="app admin-app" hidden>
+
+  <section class="section">
+    <h2>データ最終更新日時</h2>
+    <ul class="status-list" id="statusList"></ul>
+  </section>
+
+  <section class="section">
+    <h2>ガチバトル(ランク戦)現在ロテーションの選定</h2>
+    <p class="hint">BrawlAPIには「現在ガチバトルに出ているマップ」を示す情報がないため手動選定です。ゲーム内のガチバトル画面を見ながら、実際にローテーションに出ているマップだけをチェックしてください。未選定のモードはメイン画面で全マップが表示されます。</p>
+    <select id="rankedModeSelect" class="map-select"></select>
+    <div id="rankedMapGrid" class="ranked-map-grid"></div>
+    <div class="ranked-map-actions">
+      <button id="rankedMapSave" class="save-btn">このモードの選定を保存</button>
+      <button id="rankedMapReset" class="reset-btn">このモードを未選定に戻す</button>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>マップ名の日本語訳</h2>
+    <p class="hint">BrawlAPIは英語名のみのため、実際のゲームローカライズデータと日本語攻略サイトを突き合わせて対応付けた日本語名を同梱しています(data/map_names_ja.json)。未収録・誤りがあればここで追加・修正できます(空欄で保存すると英語名表示に戻ります)。</p>
+    <input type="text" id="mapNameSearch" class="picker-search" placeholder="マップ名で検索" />
+    <div id="mapNameTable" class="admin-table"></div>
+  </section>
+
+  <section class="section">
+    <h2>キャラ名の日本語訳</h2>
+    <p class="hint">マップ名と同様、実際のゲームローカライズデータと突き合わせた日本語名を同梱しています(data/brawler_names_ja.json)。一部キャラ(Emz、R-T、MAX等)は公式でも英字表記のままです。未収録・誤りがあればここで追加・修正できます。</p>
+    <input type="text" id="brawlerNameSearch" class="picker-search" placeholder="キャラ名で検索" />
+    <div id="brawlerNameTable" class="admin-table"></div>
+  </section>
+
+  <section class="section">
+    <h2>ロール未割り当て・暫定推定キャラ</h2>
+    <p class="hint">roleMapに未登録、または公式クラスからの暫定推定で動作しているキャラです。手動で細分ロールを割り当ててください。</p>
+    <div id="roleWarningList" class="admin-table"></div>
+  </section>
+
+  <section class="section">
+    <h2>メタ係数の手動上書き</h2>
+    <input type="text" id="metaSearch" class="picker-search" placeholder="キャラ名で検索" />
+    <div id="metaTable" class="admin-table"></div>
+  </section>
+
+  <section class="section">
+    <h2>マップ適性の手動上書き</h2>
+    <select id="mapSelect" class="map-select"></select>
+    <input type="text" id="mapOverrideSearch" class="picker-search" placeholder="キャラ名で検索" />
+    <div id="mapOverrideTable" class="admin-table"></div>
+  </section>
+
+  <section class="section">
+    <h2>エクスポート</h2>
+    <p class="hint">静的アプリのため手動上書きはブラウザ内(localStorage)に保存されます。他端末やgit管理下のファイルに反映する場合は以下からJSONを書き出し、data/配下の各ファイルを置き換えてください。</p>
+    <div class="export-buttons">
+      <button id="exportRoles">role_map.json用の上書きを書き出し</button>
+      <button id="exportMapOverrides">map_overrides.json を書き出し</button>
+      <button id="exportMeta">meta.json (手動上書き反映) を書き出し</button>
+      <button id="exportRankedMaps">ranked_maps.json を書き出し</button>
+      <button id="exportMapNames">map_names_ja.json を書き出し</button>
+      <button id="exportBrawlerNames">brawler_names_ja.json を書き出し</button>
+    </div>
+  </section>
+
+</main>
+
+<script src="js/api.js"></script>
+<script src="js/score.js"></script>
+<script src="js/admin.js"></script>
+</body>
+</html>

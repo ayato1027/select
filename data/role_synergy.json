@@ -1,0 +1,15 @@
+{
+  "synergy": {
+    "dive_tank": { "heal_support": 2, "buff_support": 1, "dive_tank": -1 },
+    "anchor_tank": { "heal_support": 1, "area_control": 1 },
+    "assassin": { "dive_tank": 1, "area_control": 1, "assassin": -1 },
+    "mid_dps": { "anchor_tank": 1 },
+    "close_dps": { "dive_tank": 1, "heal_support": 1 },
+    "sniper": { "anchor_tank": 1, "dive_tank": 1 },
+    "thrower": { "anchor_tank": 1, "thrower": -1 },
+    "trap": { "area_control": 1 },
+    "heal_support": { "dive_tank": 2, "anchor_tank": 1 },
+    "buff_support": { "dive_tank": 1, "close_dps": 1 },
+    "area_control": { "anchor_tank": 1, "trap": 1 }
+  }
+}

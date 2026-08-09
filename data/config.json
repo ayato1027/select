@@ -1,0 +1,33 @@
+{
+  "modes": [
+    { "id": "gemGrab", "name": "エメラルドハント" },
+    { "id": "brawlBall", "name": "ブロストライカー" },
+    { "id": "hotZone", "name": "ホットゾーン" },
+    { "id": "bounty", "name": "賞金稼ぎ" },
+    { "id": "heist", "name": "強奪" },
+    { "id": "knockOut", "name": "ノックアウト" }
+  ],
+  "draft": {
+    "maxEnemies": 3,
+    "maxAllies": 2
+  },
+  "ranking": {
+    "topDisplay": 15
+  },
+  "scoring": {
+    "mapScore": {
+      "slope": 0.5,
+      "min": 0,
+      "max": 10,
+      "neutral": 5,
+      "confidenceThresholdM": 300
+    },
+    "meta": {
+      "slope": 0.5,
+      "clampMin": -3,
+      "clampMax": 3,
+      "confidenceThresholdN": 1000
+    },
+    "overrideWarnDiff": 3
+  }
+}

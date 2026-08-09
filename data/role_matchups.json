@@ -1,0 +1,15 @@
+{
+  "matchups": {
+    "dive_tank": { "sniper": 2, "thrower": 2, "area_control": -1, "close_dps": -2, "trap": -1 },
+    "anchor_tank": { "thrower": 1, "sniper": 1, "assassin": -1, "dive_tank": -1 },
+    "assassin": { "sniper": 2, "thrower": 2, "heal_support": 2, "buff_support": 1, "anchor_tank": -2, "area_control": -2, "trap": -2 },
+    "mid_dps": { "dive_tank": 1, "close_dps": 1, "sniper": -1 },
+    "close_dps": { "dive_tank": 2, "anchor_tank": 1, "sniper": -2, "thrower": -1 },
+    "sniper": { "anchor_tank": 2, "thrower": 1, "dive_tank": -2, "assassin": -2, "close_dps": 1 },
+    "thrower": { "anchor_tank": 2, "area_control": 1, "sniper": -2, "dive_tank": -1, "assassin": -2 },
+    "trap": { "dive_tank": 2, "assassin": 2, "sniper": -1, "thrower": -1 },
+    "heal_support": { "area_control": -1, "assassin": -2 },
+    "buff_support": { "assassin": -1 },
+    "area_control": { "thrower": 1, "anchor_tank": 1, "assassin": -2, "dive_tank": -1 }
+  }
+}

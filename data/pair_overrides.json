@@ -1,0 +1,37 @@
+{
+  "_comment": "self/enemy/allyはBrawlAPIの数値idではなくnameEn(英語名)で指定する。実行時にjs/api.jsが現在のBrawlAPIマスタからidを解決するため、API側のid体系変更に影響されない実装にしている。",
+  "vsEnemy": [
+    {
+      "self": "Edgar",
+      "enemy": "Shelly",
+      "value": -3,
+      "note": "エドガー vs シェリー: 接近しても近距離火力に迎撃される"
+    },
+    {
+      "self": "Leon",
+      "enemy": "Jessie",
+      "value": -2,
+      "note": "タレットの索敵でステルスの奇襲が機能しにくい"
+    },
+    {
+      "self": "Piper",
+      "enemy": "Mortis",
+      "value": -2,
+      "note": "距離を詰められると一方的に不利"
+    }
+  ],
+  "withAlly": [
+    {
+      "self": "ElPrimo",
+      "ally": "Poco",
+      "value": 2,
+      "note": "前線維持の定番コンボ"
+    },
+    {
+      "self": "Barley",
+      "ally": "Dynamike",
+      "value": -1,
+      "note": "壁裏投げ同士で射程・役割が被る"
+    }
+  ]
+}

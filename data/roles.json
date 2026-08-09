@@ -1,0 +1,15 @@
+{
+  "roles": [
+    { "id": "dive_tank", "name": "突進タンク", "example": "ブル、ダリル、エルプリモ" },
+    { "id": "anchor_tank", "name": "居座りタンク", "example": "フランケン、8ビット" },
+    { "id": "assassin", "name": "アサシン", "example": "エドガー、レオン、モーティス" },
+    { "id": "mid_dps", "name": "中射程アタッカー", "example": "コルト、リコ" },
+    { "id": "close_dps", "name": "近距離火力", "example": "シェリー、カール" },
+    { "id": "sniper", "name": "長射程スナイパー", "example": "ブロック、パイパー" },
+    { "id": "thrower", "name": "壁裏投げ", "example": "バーリー、ダイナマイク" },
+    { "id": "trap", "name": "設置・トラップ系", "example": "タラ、グロム" },
+    { "id": "heal_support", "name": "回復サポート", "example": "ポコ、パム" },
+    { "id": "buff_support", "name": "バフサポート", "example": "ジーン、サンディ" },
+    { "id": "area_control", "name": "範囲制圧", "example": "ペニー、ジェシー" }
+  ]
+}

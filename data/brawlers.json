@@ -1,0 +1,1075 @@
+{
+  "updatedAt": "2026-08-09T14:18:57.083Z",
+  "brawlers": [
+    {
+      "id": 16000108,
+      "name": "Wendy",
+      "nameEn": "Wendy",
+      "normName": "Wendy",
+      "officialClass": "Unknown",
+      "role": "mid_dps",
+      "roleSource": "unknown",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000108.png"
+    },
+    {
+      "id": 16000107,
+      "name": "Nori",
+      "nameEn": "Nori",
+      "normName": "Nori",
+      "officialClass": "Unknown",
+      "role": "mid_dps",
+      "roleSource": "unknown",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000107.png"
+    },
+    {
+      "id": 16000106,
+      "name": "Bolt",
+      "nameEn": "Bolt",
+      "normName": "Bolt",
+      "officialClass": "Unknown",
+      "role": "mid_dps",
+      "roleSource": "unknown",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000106.png"
+    },
+    {
+      "id": 16000105,
+      "name": "Starr Nova",
+      "nameEn": "Starr Nova",
+      "normName": "StarrNova",
+      "officialClass": "Unknown",
+      "role": "mid_dps",
+      "roleSource": "unknown",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000105.png"
+    },
+    {
+      "id": 16000104,
+      "name": "Damian",
+      "nameEn": "Damian",
+      "normName": "Damian",
+      "officialClass": "Unknown",
+      "role": "mid_dps",
+      "roleSource": "unknown",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000104.png"
+    },
+    {
+      "id": 16000103,
+      "name": "Najia",
+      "nameEn": "Najia",
+      "normName": "Najia",
+      "officialClass": "Unknown",
+      "role": "mid_dps",
+      "roleSource": "unknown",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000103.png"
+    },
+    {
+      "id": 16000102,
+      "name": "Sirius",
+      "nameEn": "Sirius",
+      "normName": "Sirius",
+      "officialClass": "Unknown",
+      "role": "mid_dps",
+      "roleSource": "unknown",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000102.png"
+    },
+    {
+      "id": 16000101,
+      "name": "Glowy",
+      "nameEn": "Glowy",
+      "normName": "Glowy",
+      "officialClass": "Unknown",
+      "role": "mid_dps",
+      "roleSource": "unknown",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000101.png"
+    },
+    {
+      "id": 16000100,
+      "name": "Gigi",
+      "nameEn": "Gigi",
+      "normName": "Gigi",
+      "officialClass": "Unknown",
+      "role": "mid_dps",
+      "roleSource": "unknown",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000100.png"
+    },
+    {
+      "id": 16000099,
+      "name": "Pierce",
+      "nameEn": "Pierce",
+      "normName": "Pierce",
+      "officialClass": "Unknown",
+      "role": "mid_dps",
+      "roleSource": "unknown",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000099.png"
+    },
+    {
+      "id": 16000098,
+      "name": "Ziggy",
+      "nameEn": "Ziggy",
+      "normName": "Ziggy",
+      "officialClass": "Unknown",
+      "role": "mid_dps",
+      "roleSource": "unknown",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000098.png"
+    },
+    {
+      "id": 16000097,
+      "name": "Mina",
+      "nameEn": "Mina",
+      "normName": "Mina",
+      "officialClass": "Unknown",
+      "role": "mid_dps",
+      "roleSource": "unknown",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000097.png"
+    },
+    {
+      "id": 16000096,
+      "name": "Trunk",
+      "nameEn": "Trunk",
+      "normName": "Trunk",
+      "officialClass": "Unknown",
+      "role": "mid_dps",
+      "roleSource": "unknown",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000096.png"
+    },
+    {
+      "id": 16000095,
+      "name": "Alli",
+      "nameEn": "Alli",
+      "normName": "Alli",
+      "officialClass": "Unknown",
+      "role": "mid_dps",
+      "roleSource": "unknown",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000095.png"
+    },
+    {
+      "id": 16000094,
+      "name": "Kaze",
+      "nameEn": "Kaze",
+      "normName": "Kaze",
+      "officialClass": "Unknown",
+      "role": "assassin",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000094.png"
+    },
+    {
+      "id": 16000093,
+      "name": "Jae-Yong",
+      "nameEn": "Jae-Yong",
+      "normName": "JaeYong",
+      "officialClass": "Unknown",
+      "role": "buff_support",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000093.png"
+    },
+    {
+      "id": 16000092,
+      "name": "Finx",
+      "nameEn": "Finx",
+      "normName": "Finx",
+      "officialClass": "Unknown",
+      "role": "assassin",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000092.png"
+    },
+    {
+      "id": 16000091,
+      "name": "Lumi",
+      "nameEn": "Lumi",
+      "normName": "Lumi",
+      "officialClass": "Damage Dealer",
+      "role": "mid_dps",
+      "roleSource": "fallback",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000091.png"
+    },
+    {
+      "id": 16000090,
+      "name": "Ollie",
+      "nameEn": "Ollie",
+      "normName": "Ollie",
+      "officialClass": "Unknown",
+      "role": "thrower",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000090.png"
+    },
+    {
+      "id": 16000089,
+      "name": "Meeple",
+      "nameEn": "Meeple",
+      "normName": "Meeple",
+      "officialClass": "Unknown",
+      "role": "area_control",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000089.png"
+    },
+    {
+      "id": 16000088,
+      "name": "Buzz Lightyear",
+      "nameEn": "Buzz Lightyear",
+      "normName": "BuzzLightyear",
+      "officialClass": "Unknown",
+      "role": "mid_dps",
+      "roleSource": "unknown",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000088.png"
+    },
+    {
+      "id": 16000087,
+      "name": "Juju",
+      "nameEn": "Juju",
+      "normName": "Juju",
+      "officialClass": "Artillery",
+      "role": "area_control",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000087.png"
+    },
+    {
+      "id": 16000086,
+      "name": "Shade",
+      "nameEn": "Shade",
+      "normName": "Shade",
+      "officialClass": "Assassin",
+      "role": "assassin",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000086.png"
+    },
+    {
+      "id": 16000085,
+      "name": "Kenji",
+      "nameEn": "Kenji",
+      "normName": "Kenji",
+      "officialClass": "Assassin",
+      "role": "assassin",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000085.png"
+    },
+    {
+      "id": 16000084,
+      "name": "Moe",
+      "nameEn": "Moe",
+      "normName": "Moe",
+      "officialClass": "Damage Dealer",
+      "role": "thrower",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000084.png"
+    },
+    {
+      "id": 16000083,
+      "name": "Clancy",
+      "nameEn": "Clancy",
+      "normName": "Clancy",
+      "officialClass": "Damage Dealer",
+      "role": "mid_dps",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000083.png"
+    },
+    {
+      "id": 16000082,
+      "name": "Berry",
+      "nameEn": "Berry",
+      "normName": "Berry",
+      "officialClass": "Support",
+      "role": "buff_support",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000082.png"
+    },
+    {
+      "id": 16000081,
+      "name": "Lily",
+      "nameEn": "Lily",
+      "normName": "Lily",
+      "officialClass": "Assassin",
+      "role": "assassin",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000081.png"
+    },
+    {
+      "id": 16000080,
+      "name": "Draco",
+      "nameEn": "Draco",
+      "normName": "Draco",
+      "officialClass": "Tank",
+      "role": "dive_tank",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000080.png"
+    },
+    {
+      "id": 16000079,
+      "name": "Angelo",
+      "nameEn": "Angelo",
+      "normName": "Angelo",
+      "officialClass": "Marksman",
+      "role": "sniper",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000079.png"
+    },
+    {
+      "id": 16000078,
+      "name": "Melodie",
+      "nameEn": "Melodie",
+      "normName": "Melodie",
+      "officialClass": "Assassin",
+      "role": "mid_dps",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000078.png"
+    },
+    {
+      "id": 16000077,
+      "name": "Larry & Lawrie",
+      "nameEn": "Larry & Lawrie",
+      "normName": "LarryLawrie",
+      "officialClass": "Artillery",
+      "role": "assassin",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000077.png"
+    },
+    {
+      "id": 16000076,
+      "name": "Kit",
+      "nameEn": "Kit",
+      "normName": "Kit",
+      "officialClass": "Support",
+      "role": "buff_support",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000076.png"
+    },
+    {
+      "id": 16000075,
+      "name": "Mico",
+      "nameEn": "Mico",
+      "normName": "Mico",
+      "officialClass": "Assassin",
+      "role": "assassin",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000075.png"
+    },
+    {
+      "id": 16000074,
+      "name": "Charlie",
+      "nameEn": "Charlie",
+      "normName": "Charlie",
+      "officialClass": "Controller",
+      "role": "trap",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000074.png"
+    },
+    {
+      "id": 16000073,
+      "name": "Chuck",
+      "nameEn": "Chuck",
+      "normName": "Chuck",
+      "officialClass": "Damage Dealer",
+      "role": "dive_tank",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000073.png"
+    },
+    {
+      "id": 16000072,
+      "name": "Pearl",
+      "nameEn": "Pearl",
+      "normName": "Pearl",
+      "officialClass": "Damage Dealer",
+      "role": "mid_dps",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000072.png"
+    },
+    {
+      "id": 16000071,
+      "name": "Doug",
+      "nameEn": "Doug",
+      "normName": "Doug",
+      "officialClass": "Support",
+      "role": "heal_support",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000071.png"
+    },
+    {
+      "id": 16000070,
+      "name": "Cordelius",
+      "nameEn": "Cordelius",
+      "normName": "Cordelius",
+      "officialClass": "Assassin",
+      "role": "thrower",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000070.png"
+    },
+    {
+      "id": 16000069,
+      "name": "Hank",
+      "nameEn": "Hank",
+      "normName": "Hank",
+      "officialClass": "Tank",
+      "role": "anchor_tank",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000069.png"
+    },
+    {
+      "id": 16000068,
+      "name": "Maisie",
+      "nameEn": "Maisie",
+      "normName": "Maisie",
+      "officialClass": "Marksman",
+      "role": "mid_dps",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000068.png"
+    },
+    {
+      "id": 16000067,
+      "name": "Willow",
+      "nameEn": "Willow",
+      "normName": "Willow",
+      "officialClass": "Controller",
+      "role": "area_control",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000067.png"
+    },
+    {
+      "id": 16000066,
+      "name": "R-T",
+      "nameEn": "R-T",
+      "normName": "RT",
+      "officialClass": "Damage Dealer",
+      "role": "mid_dps",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000066.png"
+    },
+    {
+      "id": 16000065,
+      "name": "Mandy",
+      "nameEn": "Mandy",
+      "normName": "Mandy",
+      "officialClass": "Marksman",
+      "role": "sniper",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000065.png"
+    },
+    {
+      "id": 16000064,
+      "name": "Gray",
+      "nameEn": "Gray",
+      "normName": "Gray",
+      "officialClass": "Support",
+      "role": "assassin",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000064.png"
+    },
+    {
+      "id": 16000063,
+      "name": "Chester",
+      "nameEn": "Chester",
+      "normName": "Chester",
+      "officialClass": "Damage Dealer",
+      "role": "mid_dps",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000063.png"
+    },
+    {
+      "id": 16000062,
+      "name": "Buster",
+      "nameEn": "Buster",
+      "normName": "Buster",
+      "officialClass": "Tank",
+      "role": "anchor_tank",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000062.png"
+    },
+    {
+      "id": 16000061,
+      "name": "Gus",
+      "nameEn": "Gus",
+      "normName": "Gus",
+      "officialClass": "Support",
+      "role": "heal_support",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000061.png"
+    },
+    {
+      "id": 16000060,
+      "name": "Sam",
+      "nameEn": "Sam",
+      "normName": "Sam",
+      "officialClass": "Assassin",
+      "role": "dive_tank",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000060.png"
+    },
+    {
+      "id": 16000059,
+      "name": "Otis",
+      "nameEn": "Otis",
+      "normName": "Otis",
+      "officialClass": "Controller",
+      "role": "buff_support",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000059.png"
+    },
+    {
+      "id": 16000058,
+      "name": "Bonnie",
+      "nameEn": "Bonnie",
+      "normName": "Bonnie",
+      "officialClass": "Marksman",
+      "role": "sniper",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000058.png"
+    },
+    {
+      "id": 16000057,
+      "name": "Janet",
+      "nameEn": "Janet",
+      "normName": "Janet",
+      "officialClass": "Marksman",
+      "role": "mid_dps",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000057.png"
+    },
+    {
+      "id": 16000056,
+      "name": "Eve",
+      "nameEn": "Eve",
+      "normName": "Eve",
+      "officialClass": "Damage Dealer",
+      "role": "area_control",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000056.png"
+    },
+    {
+      "id": 16000054,
+      "name": "Fang",
+      "nameEn": "Fang",
+      "normName": "Fang",
+      "officialClass": "Assassin",
+      "role": "assassin",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000054.png"
+    },
+    {
+      "id": 16000053,
+      "name": "Lola",
+      "nameEn": "Lola",
+      "normName": "Lola",
+      "officialClass": "Damage Dealer",
+      "role": "close_dps",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000053.png"
+    },
+    {
+      "id": 16000052,
+      "name": "Meg",
+      "nameEn": "Meg",
+      "normName": "Meg",
+      "officialClass": "Tank",
+      "role": "dive_tank",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000052.png"
+    },
+    {
+      "id": 16000051,
+      "name": "Ash",
+      "nameEn": "Ash",
+      "normName": "Ash",
+      "officialClass": "Tank",
+      "role": "anchor_tank",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000051.png"
+    },
+    {
+      "id": 16000050,
+      "name": "Griff",
+      "nameEn": "Griff",
+      "normName": "Griff",
+      "officialClass": "Controller",
+      "role": "mid_dps",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000050.png"
+    },
+    {
+      "id": 16000049,
+      "name": "Buzz",
+      "nameEn": "Buzz",
+      "normName": "Buzz",
+      "officialClass": "Assassin",
+      "role": "assassin",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000049.png"
+    },
+    {
+      "id": 16000048,
+      "name": "Grom",
+      "nameEn": "Grom",
+      "normName": "Grom",
+      "officialClass": "Artillery",
+      "role": "trap",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000048.png"
+    },
+    {
+      "id": 16000047,
+      "name": "Squeak",
+      "nameEn": "Squeak",
+      "normName": "Squeak",
+      "officialClass": "Controller",
+      "role": "close_dps",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000047.png"
+    },
+    {
+      "id": 16000046,
+      "name": "Belle",
+      "nameEn": "Belle",
+      "normName": "Belle",
+      "officialClass": "Marksman",
+      "role": "sniper",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000046.png"
+    },
+    {
+      "id": 16000045,
+      "name": "Stu",
+      "nameEn": "Stu",
+      "normName": "Stu",
+      "officialClass": "Assassin",
+      "role": "assassin",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000045.png"
+    },
+    {
+      "id": 16000044,
+      "name": "Ruffs",
+      "nameEn": "Ruffs",
+      "normName": "Ruffs",
+      "officialClass": "Support",
+      "role": "buff_support",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000044.png"
+    },
+    {
+      "id": 16000043,
+      "name": "Edgar",
+      "nameEn": "Edgar",
+      "normName": "Edgar",
+      "officialClass": "Assassin",
+      "role": "assassin",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000043.png"
+    },
+    {
+      "id": 16000042,
+      "name": "Byron",
+      "nameEn": "Byron",
+      "normName": "Byron",
+      "officialClass": "Support",
+      "role": "heal_support",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000042.png"
+    },
+    {
+      "id": 16000041,
+      "name": "Lou",
+      "nameEn": "Lou",
+      "normName": "Lou",
+      "officialClass": "Controller",
+      "role": "area_control",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000041.png"
+    },
+    {
+      "id": 16000040,
+      "name": "Amber",
+      "nameEn": "Amber",
+      "normName": "Amber",
+      "officialClass": "Controller",
+      "role": "area_control",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000040.png"
+    },
+    {
+      "id": 16000039,
+      "name": "Colette",
+      "nameEn": "Colette",
+      "normName": "Colette",
+      "officialClass": "Damage Dealer",
+      "role": "assassin",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000039.png"
+    },
+    {
+      "id": 16000038,
+      "name": "Surge",
+      "nameEn": "Surge",
+      "normName": "Surge",
+      "officialClass": "Damage Dealer",
+      "role": "mid_dps",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000038.png"
+    },
+    {
+      "id": 16000037,
+      "name": "Sprout",
+      "nameEn": "Sprout",
+      "normName": "Sprout",
+      "officialClass": "Artillery",
+      "role": "area_control",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000037.png"
+    },
+    {
+      "id": 16000036,
+      "name": "Nani",
+      "nameEn": "Nani",
+      "normName": "Nani",
+      "officialClass": "Marksman",
+      "role": "sniper",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000036.png"
+    },
+    {
+      "id": 16000035,
+      "name": "Gale",
+      "nameEn": "Gale",
+      "normName": "Gale",
+      "officialClass": "Controller",
+      "role": "area_control",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000035.png"
+    },
+    {
+      "id": 16000034,
+      "name": "Jacky",
+      "nameEn": "Jacky",
+      "normName": "Jacky",
+      "officialClass": "Tank",
+      "role": "anchor_tank",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000034.png"
+    },
+    {
+      "id": 16000032,
+      "name": "Max",
+      "nameEn": "Max",
+      "normName": "Max",
+      "officialClass": "Support",
+      "role": "buff_support",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000032.png"
+    },
+    {
+      "id": 16000031,
+      "name": "Mr. P",
+      "nameEn": "Mr. P",
+      "normName": "MrP",
+      "officialClass": "Controller",
+      "role": "area_control",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000031.png"
+    },
+    {
+      "id": 16000030,
+      "name": "Emz",
+      "nameEn": "Emz",
+      "normName": "Emz",
+      "officialClass": "Controller",
+      "role": "mid_dps",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000030.png"
+    },
+    {
+      "id": 16000029,
+      "name": "Bea",
+      "nameEn": "Bea",
+      "normName": "Bea",
+      "officialClass": "Marksman",
+      "role": "sniper",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000029.png"
+    },
+    {
+      "id": 16000028,
+      "name": "Sandy",
+      "nameEn": "Sandy",
+      "normName": "Sandy",
+      "officialClass": "Controller",
+      "role": "buff_support",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000028.png"
+    },
+    {
+      "id": 16000027,
+      "name": "8-Bit",
+      "nameEn": "8-Bit",
+      "normName": "8Bit",
+      "officialClass": "Damage Dealer",
+      "role": "anchor_tank",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000027.png"
+    },
+    {
+      "id": 16000026,
+      "name": "Bibi",
+      "nameEn": "Bibi",
+      "normName": "Bibi",
+      "officialClass": "Tank",
+      "role": "close_dps",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000026.png"
+    },
+    {
+      "id": 16000025,
+      "name": "Carl",
+      "nameEn": "Carl",
+      "normName": "Carl",
+      "officialClass": "Damage Dealer",
+      "role": "close_dps",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000025.png"
+    },
+    {
+      "id": 16000024,
+      "name": "Rosa",
+      "nameEn": "Rosa",
+      "normName": "Rosa",
+      "officialClass": "Tank",
+      "role": "dive_tank",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000024.png"
+    },
+    {
+      "id": 16000023,
+      "name": "Leon",
+      "nameEn": "Leon",
+      "normName": "Leon",
+      "officialClass": "Assassin",
+      "role": "assassin",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000023.png"
+    },
+    {
+      "id": 16000022,
+      "name": "Tick",
+      "nameEn": "Tick",
+      "normName": "Tick",
+      "officialClass": "Artillery",
+      "role": "thrower",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000022.png"
+    },
+    {
+      "id": 16000021,
+      "name": "Gene",
+      "nameEn": "Gene",
+      "normName": "Gene",
+      "officialClass": "Controller",
+      "role": "buff_support",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000021.png"
+    },
+    {
+      "id": 16000020,
+      "name": "Frank",
+      "nameEn": "Frank",
+      "normName": "Frank",
+      "officialClass": "Tank",
+      "role": "anchor_tank",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000020.png"
+    },
+    {
+      "id": 16000019,
+      "name": "Penny",
+      "nameEn": "Penny",
+      "normName": "Penny",
+      "officialClass": "Artillery",
+      "role": "area_control",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000019.png"
+    },
+    {
+      "id": 16000018,
+      "name": "Darryl",
+      "nameEn": "Darryl",
+      "normName": "Darryl",
+      "officialClass": "Tank",
+      "role": "dive_tank",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000018.png"
+    },
+    {
+      "id": 16000017,
+      "name": "Tara",
+      "nameEn": "Tara",
+      "normName": "Tara",
+      "officialClass": "Damage Dealer",
+      "role": "trap",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000017.png"
+    },
+    {
+      "id": 16000016,
+      "name": "Pam",
+      "nameEn": "Pam",
+      "normName": "Pam",
+      "officialClass": "Support",
+      "role": "heal_support",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000016.png"
+    },
+    {
+      "id": 16000015,
+      "name": "Piper",
+      "nameEn": "Piper",
+      "normName": "Piper",
+      "officialClass": "Marksman",
+      "role": "sniper",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000015.png"
+    },
+    {
+      "id": 16000014,
+      "name": "Bo",
+      "nameEn": "Bo",
+      "normName": "Bo",
+      "officialClass": "Controller",
+      "role": "trap",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000014.png"
+    },
+    {
+      "id": 16000013,
+      "name": "Poco",
+      "nameEn": "Poco",
+      "normName": "Poco",
+      "officialClass": "Support",
+      "role": "heal_support",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000013.png"
+    },
+    {
+      "id": 16000012,
+      "name": "Crow",
+      "nameEn": "Crow",
+      "normName": "Crow",
+      "officialClass": "Assassin",
+      "role": "assassin",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000012.png"
+    },
+    {
+      "id": 16000011,
+      "name": "Mortis",
+      "nameEn": "Mortis",
+      "normName": "Mortis",
+      "officialClass": "Assassin",
+      "role": "assassin",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000011.png"
+    },
+    {
+      "id": 16000010,
+      "name": "El Primo",
+      "nameEn": "El Primo",
+      "normName": "ElPrimo",
+      "officialClass": "Tank",
+      "role": "dive_tank",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000010.png"
+    },
+    {
+      "id": 16000009,
+      "name": "Dynamike",
+      "nameEn": "Dynamike",
+      "normName": "Dynamike",
+      "officialClass": "Artillery",
+      "role": "thrower",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000009.png"
+    },
+    {
+      "id": 16000008,
+      "name": "Nita",
+      "nameEn": "Nita",
+      "normName": "Nita",
+      "officialClass": "Damage Dealer",
+      "role": "dive_tank",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000008.png"
+    },
+    {
+      "id": 16000007,
+      "name": "Jessie",
+      "nameEn": "Jessie",
+      "normName": "Jessie",
+      "officialClass": "Controller",
+      "role": "area_control",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000007.png"
+    },
+    {
+      "id": 16000006,
+      "name": "Barley",
+      "nameEn": "Barley",
+      "normName": "Barley",
+      "officialClass": "Artillery",
+      "role": "thrower",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000006.png"
+    },
+    {
+      "id": 16000005,
+      "name": "Spike",
+      "nameEn": "Spike",
+      "normName": "Spike",
+      "officialClass": "Damage Dealer",
+      "role": "thrower",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000005.png"
+    },
+    {
+      "id": 16000004,
+      "name": "Rico",
+      "nameEn": "Rico",
+      "normName": "Rico",
+      "officialClass": "Damage Dealer",
+      "role": "mid_dps",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000004.png"
+    },
+    {
+      "id": 16000003,
+      "name": "Brock",
+      "nameEn": "Brock",
+      "normName": "Brock",
+      "officialClass": "Marksman",
+      "role": "sniper",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000003.png"
+    },
+    {
+      "id": 16000002,
+      "name": "Bull",
+      "nameEn": "Bull",
+      "normName": "Bull",
+      "officialClass": "Tank",
+      "role": "dive_tank",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000002.png"
+    },
+    {
+      "id": 16000001,
+      "name": "Colt",
+      "nameEn": "Colt",
+      "normName": "Colt",
+      "officialClass": "Damage Dealer",
+      "role": "mid_dps",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000001.png"
+    },
+    {
+      "id": 16000000,
+      "name": "Shelly",
+      "nameEn": "Shelly",
+      "normName": "Shelly",
+      "officialClass": "Damage Dealer",
+      "role": "close_dps",
+      "roleSource": "roleMap",
+      "imageUrl": "https://cdn.brawlify.com/brawlers/borderless/16000000.png"
+    }
+  ]
+}

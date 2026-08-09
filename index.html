@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>ブロスタ ピック支援</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<header class="app-header">
+  <div class="app-title-group">
+    <h1>ブロスタ ピック支援</h1>
+    <span class="app-subtitle">ガチバトル専用</span>
+  </div>
+  <a class="admin-link" href="admin.html" title="データ管理">⚙</a>
+</header>
+
+<div id="loading" class="loading">読み込み中...</div>
+<div id="errorBanner" class="error-banner" hidden></div>
+
+<main id="app" class="app" hidden>
+
+  <section class="section mode-section">
+    <div class="mode-tabs" id="modeTabs"></div>
+    <div class="map-grid-notice" id="mapGridNotice" hidden></div>
+    <div class="map-grid" id="mapGrid"></div>
+  </section>
+
+  <section class="section draft-section">
+    <div class="draft-row">
+      <div class="draft-group">
+        <div class="draft-label">相手 <span class="draft-sub">(最大3・任意)</span></div>
+        <div class="slot-row" id="enemySlots"></div>
+      </div>
+      <div class="draft-group">
+        <div class="draft-label">味方 <span class="draft-sub">(最大2・任意)</span></div>
+        <div class="slot-row" id="allySlots"></div>
+      </div>
+    </div>
+    <div class="ban-btn-row">
+      <button class="ban-toggle" id="banToggle">BAN設定 <span id="banCount"></span></button>
+      <button class="ban-toggle scan-open-btn" id="scanOpenBtn">📷 カメラでBAN読取</button>
+    </div>
+  </section>
+
+  <section class="section ranking-section">
+    <div class="ranking-header">
+      <h2>おすすめランキング</h2>
+      <span class="ranking-updated" id="dataStatus"></span>
+    </div>
+    <div class="ranking-list" id="rankingList"></div>
+    <button class="show-all-btn" id="showAllBtn" hidden>すべて表示</button>
+  </section>
+
+</main>
+
+<div class="picker-overlay" id="pickerOverlay" hidden>
+  <div class="picker-sheet">
+    <div class="picker-header">
+      <input type="text" id="pickerSearch" class="picker-search" placeholder="キャラ名で検索" />
+      <button class="picker-close" id="pickerClose">閉じる</button>
+    </div>
+    <div class="picker-quick" id="pickerQuick" hidden></div>
+    <div class="picker-roles" id="pickerRoles"></div>
+    <div class="picker-grid" id="pickerGrid"></div>
+  </div>
+</div>
+
+<div class="scan-overlay" id="scanOverlay" hidden>
+  <div class="scan-header">
+    <span class="scan-title">カメラでBAN読取</span>
+    <select id="scanLayoutToggle" class="scan-layout-select">
+      <option value="1x6">1列(6人並び)</option>
+      <option value="2x3">2列(3人×2)</option>
+    </select>
+    <button class="picker-close" id="scanClose">閉じる</button>
+  </div>
+  <div class="scan-video-wrap" id="scanVideoWrap">
+    <video id="scanVideo" class="scan-video" playsinline muted></video>
+    <div class="scan-guide-box" id="scanGuideBox">
+      <div class="scan-handle" data-corner="tl"></div>
+      <div class="scan-handle" data-corner="tr"></div>
+      <div class="scan-handle" data-corner="bl"></div>
+      <div class="scan-handle" data-corner="br"></div>
+    </div>
+    <div class="scan-cells" id="scanCells"></div>
+  </div>
+  <div class="scan-footer">
+    <div class="scan-status" id="scanStatus"></div>
+    <div class="scan-pending-list" id="scanPendingList"></div>
+    <div class="scan-footer-buttons">
+      <button class="scan-reset-btn" id="scanResetGuide">ガイド枠を初期位置に戻す</button>
+      <button class="scan-apply-btn" id="scanApplyBtn" hidden>反映する</button>
+    </div>
+  </div>
+</div>
+
+<script src="js/api.js"></script>
+<script src="js/score.js"></script>
+<script src="js/scan.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
