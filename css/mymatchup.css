@@ -1,0 +1,309 @@
+.mm-app {
+  max-width: 720px;
+}
+
+.mm-notice {
+  font-size: 11px;
+  color: var(--accent);
+  background: rgba(255, 138, 61, 0.08);
+  border: 1px solid rgba(255, 138, 61, 0.3);
+  border-radius: 8px;
+  padding: 7px 9px;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.mm-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.mm-board-section {
+  padding-top: 8px;
+}
+
+/* 7段階のラベル色: 有利(緑) → 五分(灰) → 不利(赤) */
+.tier-label[data-tier="3"] { background: #4ade80; }
+.tier-label[data-tier="2"] { background: #86efac; }
+.tier-label[data-tier="1"] { background: #d9f99d; }
+.tier-label[data-tier="0"] { background: #94a3b8; }
+.tier-label[data-tier="-1"] { background: #fdba74; }
+.tier-label[data-tier="-2"] { background: #fb923c; }
+.tier-label[data-tier="-3"] { background: #f87171; }
+
+.mm-label-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.15;
+}
+
+.mm-label-value {
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.mm-label-text {
+  font-size: 8px;
+  font-weight: 600;
+  opacity: 0.85;
+}
+
+/* 基準キャラ選択グリッド(相性表ページと同じ見た目) */
+.mu-picker-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(64px, 1fr));
+  gap: 8px;
+  max-height: 60vh;
+  overflow-y: auto;
+  margin-top: 8px;
+}
+
+.mu-picker-cell {
+  text-align: center;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 4px;
+  border: 2px solid transparent;
+}
+
+.mu-picker-cell:hover { border-color: var(--accent-2); }
+
+.mu-picker-cell img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 8px;
+  background: #0c0a14;
+}
+
+.mu-picker-cell .pc-name {
+  font-size: 9px;
+  color: var(--text-dim);
+  margin-top: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.mu-picker-cell .pc-progress {
+  font-size: 9px;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.mu-picker-cell .pc-progress.done { color: var(--good); }
+
+.mu-picker-cell {
+  position: relative;
+}
+
+.pc-reset {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: none;
+  background: var(--bad);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 800;
+  line-height: 1;
+  cursor: pointer;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.mm-picker-status {
+  font-size: 11px;
+  color: var(--text-dim);
+}
+
+.mu-selected-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+.mu-selected-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 10px;
+  object-fit: cover;
+  background: #0c0a14;
+  flex: 0 0 auto;
+}
+
+.mu-selected-main { flex: 1; }
+.mu-selected-name { font-size: 18px; font-weight: 700; }
+.mu-selected-role { font-size: 11px; color: var(--text-dim); }
+
+.mu-change-btn {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--bg-elevated);
+  color: var(--text-dim);
+  font-size: 12px;
+  cursor: pointer;
+  flex: 0 0 auto;
+}
+
+.wr-view-tabs {
+  display: flex;
+  gap: 6px;
+  margin: 4px 0 10px;
+}
+
+.wr-view-tab {
+  flex: 1;
+  padding: 9px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--bg-elevated);
+  color: var(--text-dim);
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.wr-view-tab.active {
+  background: var(--accent);
+  color: #1a1207;
+  font-weight: 600;
+  border-color: var(--accent);
+}
+
+/* 自動データ由来の初期値が入っているチップは点線で区別する */
+.tier-chip.from-auto {
+  border-color: rgba(255, 255, 255, 0.25);
+  border-style: dashed;
+}
+
+/* --- 複数選択 --- */
+.mm-roles {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  padding: 8px 0 6px;
+}
+
+.mm-role-chip {
+  flex: 0 0 auto;
+  padding: 5px 10px;
+  border-radius: 999px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  font-size: 11px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.mm-role-chip.active {
+  background: var(--accent-2);
+  color: #fff;
+  border-color: var(--accent-2);
+}
+
+.mm-select-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+
+.mm-select-count {
+  flex: 1;
+  font-size: 11px;
+  color: var(--text-dim);
+  min-width: 120px;
+}
+
+.mm-select-count.has-selection {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.mm-select-btn {
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--bg-elevated);
+  color: var(--text-dim);
+  font-size: 11px;
+  cursor: pointer;
+  flex: 0 0 auto;
+}
+
+.mm-reset-mini {
+  color: var(--bad);
+  border-color: rgba(248, 113, 113, 0.5);
+}
+
+.mm-reset-mini[hidden] {
+  display: none;
+}
+
+.mm-actions {
+  flex-wrap: wrap;
+}
+
+.mm-bulk-hint {
+  font-size: 12px;
+  font-weight: 700;
+  color: #1a1207;
+  background: var(--accent);
+  border-radius: 8px;
+  padding: 8px 10px;
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.mm-bulk-hint[hidden] {
+  display: none;
+}
+
+/* 選択中のチップ */
+.tier-chip.selected {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(255, 138, 61, 0.45);
+}
+
+.tier-chip.selected::after {
+  content: '✓';
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #1a1207;
+  font-size: 11px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+
+/* 選択がある間は、移動先の段をタップできることを視覚的に示す */
+.mm-bulk-mode .tier-row {
+  cursor: pointer;
+}
+
+.mm-bulk-mode .tier-row:hover .tier-content,
+.mm-bulk-mode .tier-pool-section:hover .tier-pool-content {
+  background: rgba(255, 138, 61, 0.15);
+}

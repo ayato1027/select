@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>勝率ランキング | ブロスタ ピック支援</title>
+<link rel="stylesheet" href="css/style.css?v=6" />
+<link rel="stylesheet" href="css/winrate.css?v=6" />
+</head>
+<body>
+<header class="app-header">
+  <div class="app-title-group">
+    <h1>勝率ランキング</h1>
+    <span class="app-subtitle">ガチバトル上級帯</span>
+  </div>
+  <a class="admin-link" href="index.html" title="メイン画面へ">← 戻る</a>
+</header>
+
+<div id="loading" class="loading">読み込み中...</div>
+
+<main id="wrApp" class="app wr-app" hidden>
+
+  <section class="section">
+    <div class="wr-view-tabs" id="wrViewTabs">
+      <button class="wr-view-tab" data-view="overall">全体勝率</button>
+      <button class="wr-view-tab" data-view="map">マップ別勝率</button>
+    </div>
+
+    <div id="wrMapPicker" class="wr-map-picker" hidden>
+      <div class="mode-tabs" id="wrModeTabs"></div>
+      <div class="map-grid" id="wrMapGrid"></div>
+    </div>
+
+    <input type="text" id="wrSearch" class="picker-search" placeholder="キャラ名で検索" />
+    <div class="wr-status" id="wrStatus"></div>
+  </section>
+
+  <section class="section">
+    <div class="wr-list" id="wrList"></div>
+  </section>
+
+</main>
+
+<script src="js/api.js?v=6"></script>
+<script src="js/winrate.js?v=6"></script>
+</body>
+</html>

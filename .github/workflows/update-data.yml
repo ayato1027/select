@@ -1,0 +1,35 @@
+name: データ更新 (勝率・マップ適性・相性・体力等)
+
+# 手動トリガーのみ。GitHubのActionsタブから「Run workflow」を押した時だけ動く。
+# scripts/update-data.js は依存パッケージなし(Node組み込みのfetch/fs/pathのみ)で動くため、
+# セットアップはNode本体のみで良い。
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: update-data.js を実行
+        run: node scripts/update-data.js
+
+      - name: 変更があればコミット・push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "変更なし(データは既に最新でした)"
+          else
+            git commit -m "chore: データ更新 ($(date -u +%Y-%m-%d))"
+            git push
+          fi

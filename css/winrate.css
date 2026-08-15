@@ -1,0 +1,152 @@
+.wr-app {
+  max-width: 640px;
+}
+
+.wr-view-tabs {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.wr-view-tab {
+  flex: 1;
+  padding: 9px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--bg-elevated);
+  color: var(--text-dim);
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.wr-view-tab.active {
+  background: var(--accent);
+  color: #1a1207;
+  font-weight: 600;
+  border-color: var(--accent);
+}
+
+.wr-map-picker {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border);
+}
+
+.wr-map-picker .map-grid {
+  max-height: 260px;
+  overflow-y: auto;
+}
+
+.wr-status {
+  font-size: 11px;
+  color: var(--text-dim);
+  margin-top: 8px;
+}
+
+.wr-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.wr-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--bg-elevated);
+  border-radius: 10px;
+  padding: 8px 10px;
+}
+
+.wr-rank {
+  width: 24px;
+  text-align: center;
+  font-size: 13px;
+  color: var(--text-dim);
+  flex: 0 0 auto;
+}
+
+.wr-rank.top1 { color: #ffd23d; font-weight: 800; }
+.wr-rank.top2 { color: #d9d9e3; font-weight: 800; }
+.wr-rank.top3 { color: #cd8a4c; font-weight: 800; }
+
+.wr-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  object-fit: cover;
+  background: #0c0a14;
+  flex: 0 0 auto;
+}
+
+.wr-main {
+  flex: 1;
+  min-width: 0;
+}
+
+.wr-name-row {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.wr-name {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.wr-role {
+  font-size: 10px;
+  color: var(--text-dim);
+}
+
+.wr-battles {
+  font-size: 11px;
+  color: var(--text-dim);
+  margin-top: 2px;
+}
+
+.wr-rate-bar-track {
+  width: 100%;
+  height: 4px;
+  background: var(--bg-card);
+  border-radius: 2px;
+  margin-top: 5px;
+  overflow: hidden;
+}
+
+.wr-rate-bar-fill {
+  height: 100%;
+  background: var(--accent);
+  border-radius: 2px;
+}
+
+.wr-rate {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--accent);
+  flex: 0 0 auto;
+  width: 60px;
+  text-align: right;
+}
+
+.wr-row.low-confidence {
+  opacity: 0.5;
+}
+
+.wr-row.low-confidence .wr-rate {
+  color: var(--text-dim);
+}
+
+.wr-low-badge {
+  color: var(--bad);
+  font-size: 10px;
+  margin-left: 6px;
+}
+
+.wr-empty {
+  text-align: center;
+  color: var(--text-dim);
+  font-size: 13px;
+  padding: 30px 0;
+}

@@ -61,6 +61,40 @@
     setupExports();
     setupSearches();
     setupRankedMapActions();
+    setupBackup();
+  }
+
+  function backupStatusEl() {
+    return document.getElementById('backupStatus');
+  }
+
+  function setupBackup() {
+    document.getElementById('backupDownloadBtn').onclick = () => {
+      const payload = BSApi.downloadBackup();
+      const count = Object.keys(payload.data).length;
+      backupStatusEl().textContent = `${count}件の設定をダウンロードしました`;
+    };
+
+    document.getElementById('backupRestoreInput').addEventListener('change', async (e) => {
+      const file = e.target.files[0];
+      e.target.value = ''; // 同じファイルを連続で選び直せるようにする
+      if (!file) return;
+      try {
+        const payload = JSON.parse(await file.text());
+        const count = Object.keys(payload.data || {}).length;
+        if (
+          !confirm(
+            `このファイルには${count}件の設定が含まれています。復元すると、この端末の現在の設定は上書きされます。よろしいですか?`
+          )
+        )
+          return;
+        BSApi.restoreBackup(payload);
+        alert('復元しました。ページを再読み込みします。');
+        location.reload();
+      } catch (err) {
+        backupStatusEl().textContent = `復元に失敗しました: ${err.message}`;
+      }
+    });
   }
 
   function renderStatus() {

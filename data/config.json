@@ -14,6 +14,11 @@
   "ranking": {
     "topDisplay": 15
   },
+  "rangeBands": {
+    "_comment": "brawler_stats.jsonのrangeTiles(実射程)で近/中/長を分ける境界。closeMax未満=近距離、midMax未満=中距離、それ以上=長射程。",
+    "closeMax": 5.5,
+    "midMax": 8.5
+  },
   "scoring": {
     "mapScore": {
       "slope": 0.5,
@@ -28,6 +33,30 @@
       "clampMax": 3,
       "confidenceThresholdN": 1000
     },
-    "overrideWarnDiff": 3
+    "pairMatchup": {
+      "_comment": "confidenceThresholdは勝率差を統計的に判別できる試合数の目安(勝率差2ポイントの検出に約2400戦必要)。これ未満は0方向に縮める。minBattles未満のペアは相性データ自体を使わずロール相性表にフォールバックする。",
+      "slope": 0.5,
+      "clampMin": -3,
+      "clampMax": 3,
+      "confidenceThreshold": 3000,
+      "minBattles": 800
+    },
+    "pairSynergy": {
+      "slope": 0.5,
+      "clampMin": -2,
+      "clampMax": 2,
+      "confidenceThreshold": 3000,
+      "minBattles": 800
+    },
+    "overrideWarnDiff": 3,
+    "enemyComp": {
+      "_comment": "相手チームの実ステータス(体力/火力/射程)の平均を全キャラ中央値と比べ、刺さる型のキャラを加点する。比率は中央値に対する倍率。相手が1体しか判明していないと偏りが大きいためminEnemies体以上で発動。",
+      "minEnemies": 2,
+      "bonus": 1.5,
+      "squishyHpRatio": 0.95,
+      "lowDamageRatio": 0.9,
+      "longRangeTiles": 8,
+      "closeRangeTiles": 5.5
+    }
   }
 }

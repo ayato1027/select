@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>マイTier表 | ブロスタ ピック支援</title>
+<link rel="stylesheet" href="css/style.css?v=13" />
+<link rel="stylesheet" href="css/tier.css?v=13" />
+</head>
+<body>
+<header class="app-header">
+  <div class="app-title-group">
+    <h1>マイTier表</h1>
+    <span class="app-subtitle">自分の評価</span>
+  </div>
+  <div class="header-links">
+    <a class="admin-link" href="admin.html" title="バックアップ/復元">💾</a>
+    <a class="admin-link" href="index.html" title="メイン画面へ">← 戻る</a>
+  </div>
+</header>
+
+<div id="loading" class="loading">読み込み中...</div>
+
+<main id="tierApp" class="app tier-app" hidden>
+  <section class="section">
+    <p class="hint">
+      キャラをドラッグしてS〜Eの各ランクに振り分けてください。動かした瞬間に自動保存され、
+      メイン画面のランキング計算に「自分の評価」として反映されます(S=+3 〜 E=-3)。
+      未評価のキャラは補正なしとして扱われます。
+    </p>
+    <input type="text" id="tierSearch" class="picker-search" placeholder="キャラ名で検索" />
+    <div class="tier-actions">
+      <button id="tierResetBtn" class="tier-reset-btn">全て未評価に戻す</button>
+      <span id="tierSaveStatus" class="tier-save-status"></span>
+    </div>
+  </section>
+
+  <section class="section tier-board" id="tierBoard">
+    <!-- S/A/B/C/D/E の行と未評価プールは tier.js が描画する -->
+  </section>
+</main>
+
+<div class="tier-drag-ghost" id="tierDragGhost" hidden></div>
+
+<script src="js/api.js?v=13"></script>
+<script src="js/tier.js?v=13"></script>
+</body>
+</html>

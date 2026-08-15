@@ -10,7 +10,59 @@ const LS_KEYS = {
   rankedMaps: 'bs_ranked_maps_v1',       // 管理画面でのガチバトル現在ロテーション選定 { [modeId]: mapId[] }
   mapNamesJa: 'bs_map_names_ja_v1',      // 管理画面でのマップ日本語名の追加・修正 { [英語名]: 日本語名 }
   brawlerNamesJa: 'bs_brawler_names_ja_v1', // 管理画面でのキャラ日本語名の追加・修正 { [nameEn]: 日本語名 }
+  // 自分で作る相性表。{ vsEnemy: { "<selfId>": { "<otherId>": value } }, withAlly: {...} }
+  // 統計データより優先され、スコア計算・相性表ページの両方で使われる
+  myMatchups: 'bs_my_matchups_v1',
 };
+
+// --- バックアップ/復元 ---
+// このアプリの全設定(Tier表・自分の相性表・各種手動上書き)はサーバーを持たない
+// 静的アプリの性質上ブラウザのlocalStorageにしか存在しない。ブラウザデータの消去や
+// 機種変更で失われるため、ファイルに書き出して復元できるようにする。
+// 個別にキーを列挙せず「bs_」で始まる全キーを対象にすることで、今後キーが増えても
+// このコードを直す必要がない。
+const BACKUP_PREFIX = 'bs_';
+
+function collectBackupData() {
+  const data = {};
+  for (let i = 0; i < localStorage.length; i++) {
+    const key = localStorage.key(i);
+    if (key && key.startsWith(BACKUP_PREFIX)) {
+      data[key] = localStorage.getItem(key);
+    }
+  }
+  return data;
+}
+
+function downloadBackup() {
+  const exportedAt = new Date().toISOString();
+  const payload = { app: 'brawstar-pick-assistant', version: 1, exportedAt, data: collectBackupData() };
+  const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `brawstar-backup-${exportedAt.slice(0, 19).replace(/[:T]/g, '-')}.json`;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  URL.revokeObjectURL(url);
+  return payload;
+}
+
+// 復元は現在の設定を全て上書きするため、呼び出し側で確認を取ってから呼ぶこと
+function restoreBackup(payload) {
+  if (!payload || typeof payload !== 'object' || !payload.data || typeof payload.data !== 'object') {
+    throw new Error('バックアップファイルの形式が正しくありません');
+  }
+  let count = 0;
+  for (const [key, value] of Object.entries(payload.data)) {
+    // 万一改変されたファイルでも他アプリのlocalStorageを汚染しないよう、対象キーを制限する
+    if (!key.startsWith(BACKUP_PREFIX)) continue;
+    localStorage.setItem(key, value);
+    count++;
+  }
+  return count;
+}
 
 function normalizeName(nameEn) {
   return (nameEn || '').replace(/[^a-zA-Z0-9]/g, '');
@@ -22,8 +74,12 @@ async function fetchJSON(url) {
   return res.json();
 }
 
+// 同梱JSONはupdate-data実行やデータ調整で頻繁に変わるため、
+// ブラウザキャッシュに古い版を掴まれないようキャッシュを無効化して取得する
 async function loadLocalJSON(path) {
-  return fetchJSON(path);
+  const res = await fetch(path, { cache: 'no-cache' });
+  if (!res.ok) throw new Error(`fetch failed: ${path} (${res.status})`);
+  return res.json();
 }
 
 function readOverrides(key) {
@@ -148,4 +204,7 @@ window.BSApi = {
   mergeRankedMaps,
   mergeMapNames,
   mergeBrawlerNames,
+  collectBackupData,
+  downloadBackup,
+  restoreBackup,
 };

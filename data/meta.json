@@ -1,6 +1,742 @@
 {
-  "_comment": "全体勝率データ取得(フェーズ3)は未実装。coefficientsに未掲載のキャラはメタ係数0として扱われる。",
-  "updatedAt": null,
+  "updatedAt": "2026-08-10T07:46:03.066Z",
   "patchVersion": "",
-  "coefficients": {}
+  "baselineWinRate": 52.66,
+  "coefficients": {
+    "16000000": {
+      "value": -0.49,
+      "winRate": 51.67,
+      "battles": 7531,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000001": {
+      "value": -0.07,
+      "winRate": 52.51,
+      "battles": 93828,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000002": {
+      "value": 0.32,
+      "winRate": 53.3,
+      "battles": 30585,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000003": {
+      "value": 0.63,
+      "winRate": 53.91,
+      "battles": 194541,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000004": {
+      "value": 1.06,
+      "winRate": 54.78,
+      "battles": 103626,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000005": {
+      "value": 0.1,
+      "winRate": 52.86,
+      "battles": 31810,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000006": {
+      "value": 2.49,
+      "winRate": 57.63,
+      "battles": 10027,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000007": {
+      "value": -0.58,
+      "winRate": 51.49,
+      "battles": 6361,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000008": {
+      "value": 1.59,
+      "winRate": 55.84,
+      "battles": 14508,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000009": {
+      "value": -1.98,
+      "winRate": 48.69,
+      "battles": 9334,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000010": {
+      "value": -3,
+      "winRate": 45.93,
+      "battles": 2915,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000011": {
+      "value": 0.35,
+      "winRate": 53.35,
+      "battles": 86507,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000012": {
+      "value": -0.1,
+      "winRate": 52.46,
+      "battles": 220996,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000013": {
+      "value": 0.93,
+      "winRate": 54.51,
+      "battles": 6447,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000014": {
+      "value": 0.14,
+      "winRate": 52.93,
+      "battles": 53251,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000015": {
+      "value": 0.3,
+      "winRate": 53.25,
+      "battles": 115260,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000016": {
+      "value": -1.42,
+      "winRate": 49.82,
+      "battles": 1423,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000017": {
+      "value": -0.09,
+      "winRate": 52.47,
+      "battles": 38748,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000018": {
+      "value": -0.77,
+      "winRate": 51.12,
+      "battles": 6475,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000019": {
+      "value": -0.44,
+      "winRate": 51.78,
+      "battles": 42860,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000020": {
+      "value": 0.12,
+      "winRate": 52.9,
+      "battles": 6744,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000021": {
+      "value": -0.86,
+      "winRate": 50.93,
+      "battles": 74411,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000022": {
+      "value": -0.52,
+      "winRate": 51.61,
+      "battles": 11792,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000023": {
+      "value": -0.11,
+      "winRate": 52.44,
+      "battles": 48618,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000024": {
+      "value": 0.31,
+      "winRate": 53.27,
+      "battles": 4730,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000025": {
+      "value": 0.57,
+      "winRate": 53.8,
+      "battles": 55325,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000026": {
+      "value": 1.98,
+      "winRate": 56.61,
+      "battles": 23407,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000027": {
+      "value": 1.83,
+      "winRate": 56.31,
+      "battles": 158417,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000028": {
+      "value": 0.71,
+      "winRate": 54.08,
+      "battles": 7187,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000029": {
+      "value": -2.26,
+      "winRate": 48.14,
+      "battles": 11956,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000030": {
+      "value": 1.02,
+      "winRate": 54.69,
+      "battles": 60044,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000031": {
+      "value": 0.93,
+      "winRate": 54.51,
+      "battles": 4512,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000032": {
+      "value": -0.59,
+      "winRate": 51.48,
+      "battles": 194511,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000034": {
+      "value": 0.94,
+      "winRate": 54.54,
+      "battles": 2236,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000035": {
+      "value": -1.56,
+      "winRate": 49.54,
+      "battles": 10123,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000036": {
+      "value": -1.24,
+      "winRate": 50.17,
+      "battles": 37230,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000037": {
+      "value": 2.32,
+      "winRate": 57.3,
+      "battles": 20318,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000038": {
+      "value": 1.68,
+      "winRate": 56.01,
+      "battles": 182104,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000039": {
+      "value": -3,
+      "winRate": 45.4,
+      "battles": 32514,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000040": {
+      "value": -1.07,
+      "winRate": 50.52,
+      "battles": 11482,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000041": {
+      "value": -0.73,
+      "winRate": 51.19,
+      "battles": 34560,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000042": {
+      "value": -1.86,
+      "winRate": 48.94,
+      "battles": 90591,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000043": {
+      "value": 0.46,
+      "winRate": 53.58,
+      "battles": 102133,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000044": {
+      "value": -1.42,
+      "winRate": 49.81,
+      "battles": 75478,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000045": {
+      "value": 0.51,
+      "winRate": 53.67,
+      "battles": 111501,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000046": {
+      "value": -1.69,
+      "winRate": 49.28,
+      "battles": 27424,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000047": {
+      "value": -1.12,
+      "winRate": 50.41,
+      "battles": 13528,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000048": {
+      "value": -0.17,
+      "winRate": 52.32,
+      "battles": 4811,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000049": {
+      "value": -1.16,
+      "winRate": 50.33,
+      "battles": 11878,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000050": {
+      "value": 0.29,
+      "winRate": 53.23,
+      "battles": 227010,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000051": {
+      "value": 2.85,
+      "winRate": 58.35,
+      "battles": 19000,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000052": {
+      "value": -0.09,
+      "winRate": 52.47,
+      "battles": 149457,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000053": {
+      "value": -0.18,
+      "winRate": 52.29,
+      "battles": 6815,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000054": {
+      "value": -1.63,
+      "winRate": 49.39,
+      "battles": 23554,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000056": {
+      "value": 0.53,
+      "winRate": 53.71,
+      "battles": 6929,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000057": {
+      "value": -1.32,
+      "winRate": 50.01,
+      "battles": 7267,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000058": {
+      "value": 0.82,
+      "winRate": 54.3,
+      "battles": 3571,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000059": {
+      "value": -1.22,
+      "winRate": 50.21,
+      "battles": 96425,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000060": {
+      "value": -1.35,
+      "winRate": 49.95,
+      "battles": 1044,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000061": {
+      "value": -1.83,
+      "winRate": 48.99,
+      "battles": 24205,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000062": {
+      "value": -0.01,
+      "winRate": 52.63,
+      "battles": 9449,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000063": {
+      "value": -0.89,
+      "winRate": 50.87,
+      "battles": 67440,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000064": {
+      "value": 0.57,
+      "winRate": 53.79,
+      "battles": 28599,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000065": {
+      "value": -0.78,
+      "winRate": 51.09,
+      "battles": 31332,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000066": {
+      "value": -0.67,
+      "winRate": 51.31,
+      "battles": 6309,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000067": {
+      "value": 0.56,
+      "winRate": 53.78,
+      "battles": 8161,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000068": {
+      "value": -1.82,
+      "winRate": 49.02,
+      "battles": 3743,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000069": {
+      "value": -0.97,
+      "winRate": 50.71,
+      "battles": 3738,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000070": {
+      "value": -0.99,
+      "winRate": 50.67,
+      "battles": 29042,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000071": {
+      "value": 0.35,
+      "winRate": 53.36,
+      "battles": 5764,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000072": {
+      "value": 1.5,
+      "winRate": 55.65,
+      "battles": 38588,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000073": {
+      "value": -1.16,
+      "winRate": 50.34,
+      "battles": 22945,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000074": {
+      "value": -1.48,
+      "winRate": 49.7,
+      "battles": 22181,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000075": {
+      "value": 0.19,
+      "winRate": 53.03,
+      "battles": 29292,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000076": {
+      "value": -1.54,
+      "winRate": 49.57,
+      "battles": 27356,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000077": {
+      "value": 0.8,
+      "winRate": 54.26,
+      "battles": 3521,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000078": {
+      "value": 0.66,
+      "winRate": 53.97,
+      "battles": 23434,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000079": {
+      "value": 0.44,
+      "winRate": 53.53,
+      "battles": 38621,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000080": {
+      "value": -0.78,
+      "winRate": 51.09,
+      "battles": 2612,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000081": {
+      "value": -1.67,
+      "winRate": 49.31,
+      "battles": 13732,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000082": {
+      "value": -2.81,
+      "winRate": 47.03,
+      "battles": 20994,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000083": {
+      "value": -2.06,
+      "winRate": 48.53,
+      "battles": 6693,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000084": {
+      "value": -0.31,
+      "winRate": 52.03,
+      "battles": 13233,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000085": {
+      "value": 0.65,
+      "winRate": 53.96,
+      "battles": 26249,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000086": {
+      "value": -0.11,
+      "winRate": 52.43,
+      "battles": 43412,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000087": {
+      "value": 0.11,
+      "winRate": 52.88,
+      "battles": 7938,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000089": {
+      "value": -1.3,
+      "winRate": 50.05,
+      "battles": 149765,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000090": {
+      "value": -0.63,
+      "winRate": 51.39,
+      "battles": 3319,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000091": {
+      "value": -1.75,
+      "winRate": 49.16,
+      "battles": 63666,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000092": {
+      "value": -0.45,
+      "winRate": 51.76,
+      "battles": 9330,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000093": {
+      "value": -1.67,
+      "winRate": 49.31,
+      "battles": 3902,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000094": {
+      "value": 1.01,
+      "winRate": 54.68,
+      "battles": 36823,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000095": {
+      "value": -0.75,
+      "winRate": 51.16,
+      "battles": 20546,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000096": {
+      "value": 0.79,
+      "winRate": 54.24,
+      "battles": 6572,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000097": {
+      "value": -1,
+      "winRate": 50.66,
+      "battles": 54319,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000098": {
+      "value": -0.63,
+      "winRate": 51.4,
+      "battles": 4271,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000099": {
+      "value": -1.82,
+      "winRate": 49.02,
+      "battles": 164768,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000100": {
+      "value": -2.28,
+      "winRate": 48.1,
+      "battles": 20720,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000101": {
+      "value": -0.23,
+      "winRate": 52.19,
+      "battles": 5161,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000102": {
+      "value": 0.36,
+      "winRate": 53.37,
+      "battles": 13825,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000103": {
+      "value": -1.58,
+      "winRate": 49.5,
+      "battles": 26859,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000104": {
+      "value": 1.83,
+      "winRate": 56.31,
+      "battles": 105125,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000105": {
+      "value": 1.33,
+      "winRate": 55.31,
+      "battles": 178611,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000106": {
+      "value": 3,
+      "winRate": 59.41,
+      "battles": 54232,
+      "manualValue": null,
+      "note": ""
+    },
+    "16000107": {
+      "value": 1.47,
+      "winRate": 55.6,
+      "battles": 19801,
+      "manualValue": null,
+      "note": ""
+    }
+  }
 }

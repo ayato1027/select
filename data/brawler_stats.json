@@ -1,0 +1,975 @@
+{
+  "updatedAt": "2026-08-10T07:46:00.471Z",
+  "sourceVersion": "68.250",
+  "note": "ゲーム内CSV(characters.csv/skills.csv)由来。すべてパワーレベル1基準の値で、実戦のレベル11ではおおよそ1.4倍になる。相対比較にのみ使う想定。rangeTilesはタイル単位。",
+  "medians": {
+    "hp": 3700,
+    "damagePerShot": 1000,
+    "rangeTiles": 7.67
+  },
+  "stats": {
+    "16000000": {
+      "hp": 3900,
+      "damagePerShot": 1500,
+      "damagePerBullet": 300,
+      "bullets": 5,
+      "rangeTiles": 7.67,
+      "speed": 770,
+      "reloadMs": 1500
+    },
+    "16000001": {
+      "hp": 3100,
+      "damagePerShot": 360,
+      "damagePerBullet": 360,
+      "bullets": 1,
+      "rangeTiles": 9,
+      "speed": 720,
+      "reloadMs": 1300
+    },
+    "16000002": {
+      "hp": 5000,
+      "damagePerShot": 2200,
+      "damagePerBullet": 440,
+      "bullets": 5,
+      "rangeTiles": 5.33,
+      "speed": 770,
+      "reloadMs": 1600
+    },
+    "16000003": {
+      "hp": 3000,
+      "damagePerShot": 1160,
+      "damagePerBullet": 1160,
+      "bullets": 1,
+      "rangeTiles": 9,
+      "speed": 720,
+      "reloadMs": 1950
+    },
+    "16000004": {
+      "hp": 3000,
+      "damagePerShot": 300,
+      "damagePerBullet": 300,
+      "bullets": 1,
+      "rangeTiles": 9.67,
+      "speed": 720,
+      "reloadMs": 1100
+    },
+    "16000005": {
+      "hp": 3000,
+      "damagePerShot": 540,
+      "damagePerBullet": 540,
+      "bullets": 1,
+      "rangeTiles": 7.67,
+      "speed": 720,
+      "reloadMs": 2000
+    },
+    "16000006": {
+      "hp": 2700,
+      "damagePerShot": 800,
+      "damagePerBullet": 800,
+      "bullets": 1,
+      "rangeTiles": 7.33,
+      "speed": 720,
+      "reloadMs": 2000
+    },
+    "16000007": {
+      "hp": 3300,
+      "damagePerShot": 1060,
+      "damagePerBullet": 1060,
+      "bullets": 1,
+      "rangeTiles": 9,
+      "speed": 720,
+      "reloadMs": 1800
+    },
+    "16000008": {
+      "hp": 4200,
+      "damagePerShot": 960,
+      "damagePerBullet": 960,
+      "bullets": 1,
+      "rangeTiles": 6,
+      "speed": 720,
+      "reloadMs": 1100
+    },
+    "16000009": {
+      "hp": 3000,
+      "damagePerShot": 1600,
+      "damagePerBullet": 800,
+      "bullets": 2,
+      "rangeTiles": 7.33,
+      "speed": 770,
+      "reloadMs": 1400
+    },
+    "16000010": {
+      "hp": 6500,
+      "damagePerShot": 380,
+      "damagePerBullet": 380,
+      "bullets": 1,
+      "rangeTiles": 3,
+      "speed": 770,
+      "reloadMs": 800
+    },
+    "16000011": {
+      "hp": 4000,
+      "damagePerShot": 1000,
+      "damagePerBullet": 1000,
+      "bullets": 1,
+      "rangeTiles": 2.67,
+      "speed": 820,
+      "reloadMs": 2400
+    },
+    "16000012": {
+      "hp": 2800,
+      "damagePerShot": 1260,
+      "damagePerBullet": 420,
+      "bullets": 3,
+      "rangeTiles": 8.67,
+      "speed": 820,
+      "reloadMs": 1600
+    },
+    "16000013": {
+      "hp": 4000,
+      "damagePerShot": 3040,
+      "damagePerBullet": 760,
+      "bullets": 4,
+      "rangeTiles": 7,
+      "speed": 720,
+      "reloadMs": 1600
+    },
+    "16000014": {
+      "hp": 3800,
+      "damagePerShot": 640,
+      "damagePerBullet": 640,
+      "bullets": 1,
+      "rangeTiles": 8.67,
+      "speed": 720,
+      "reloadMs": 1700
+    },
+    "16000015": {
+      "hp": 2800,
+      "damagePerShot": 1800,
+      "damagePerBullet": 1800,
+      "bullets": 1,
+      "rangeTiles": 10,
+      "speed": 720,
+      "reloadMs": 2300
+    },
+    "16000016": {
+      "hp": 5000,
+      "damagePerShot": 300,
+      "damagePerBullet": 300,
+      "bullets": 1,
+      "rangeTiles": 9,
+      "speed": 720,
+      "reloadMs": 1300
+    },
+    "16000017": {
+      "hp": 3300,
+      "damagePerShot": 1440,
+      "damagePerBullet": 480,
+      "bullets": 3,
+      "rangeTiles": 8,
+      "speed": 720,
+      "reloadMs": 1800
+    },
+    "16000018": {
+      "hp": 5500,
+      "damagePerShot": 1200,
+      "damagePerBullet": 240,
+      "bullets": 5,
+      "rangeTiles": 6,
+      "speed": 770,
+      "reloadMs": 1800
+    },
+    "16000019": {
+      "hp": 3500,
+      "damagePerShot": 980,
+      "damagePerBullet": 980,
+      "bullets": 1,
+      "rangeTiles": 8.67,
+      "speed": 720,
+      "reloadMs": 2000
+    },
+    "16000020": {
+      "hp": 6800,
+      "damagePerShot": 4640,
+      "damagePerBullet": 1160,
+      "bullets": 4,
+      "rangeTiles": 6,
+      "speed": 770,
+      "reloadMs": 800
+    },
+    "16000021": {
+      "hp": 3800,
+      "damagePerShot": 1000,
+      "damagePerBullet": 1000,
+      "bullets": 1,
+      "rangeTiles": 5.67,
+      "speed": 720,
+      "reloadMs": 2000
+    },
+    "16000022": {
+      "hp": 2400,
+      "damagePerShot": 680,
+      "damagePerBullet": 680,
+      "bullets": 1,
+      "rangeTiles": 8.67,
+      "speed": 720,
+      "reloadMs": 2400
+    },
+    "16000023": {
+      "hp": 3300,
+      "damagePerShot": 480,
+      "damagePerBullet": 480,
+      "bullets": 1,
+      "rangeTiles": 9.67,
+      "speed": 820,
+      "reloadMs": 1900
+    },
+    "16000024": {
+      "hp": 5400,
+      "damagePerShot": 1500,
+      "damagePerBullet": 500,
+      "bullets": 3,
+      "rangeTiles": 3.67,
+      "speed": 770,
+      "reloadMs": 1000
+    },
+    "16000025": {
+      "hp": 4200,
+      "damagePerShot": 820,
+      "damagePerBullet": 820,
+      "bullets": 1,
+      "rangeTiles": 8.33,
+      "speed": 720,
+      "reloadMs": 2000
+    },
+    "16000026": {
+      "hp": 5000,
+      "damagePerShot": 1400,
+      "damagePerBullet": 1400,
+      "bullets": 1,
+      "rangeTiles": 3.67,
+      "speed": 820,
+      "reloadMs": 800
+    },
+    "16000027": {
+      "hp": 5200,
+      "damagePerShot": 340,
+      "damagePerBullet": 340,
+      "bullets": 1,
+      "rangeTiles": 10,
+      "speed": 580,
+      "reloadMs": 1350
+    },
+    "16000028": {
+      "hp": 4100,
+      "damagePerShot": 2700,
+      "damagePerBullet": 900,
+      "bullets": 3,
+      "rangeTiles": 6,
+      "speed": 770,
+      "reloadMs": 1800
+    },
+    "16000029": {
+      "hp": 2800,
+      "damagePerShot": 800,
+      "damagePerBullet": 800,
+      "bullets": 1,
+      "rangeTiles": 10,
+      "speed": 720,
+      "reloadMs": 900
+    },
+    "16000030": {
+      "hp": 3900,
+      "damagePerShot": 2800,
+      "damagePerBullet": 560,
+      "bullets": 5,
+      "rangeTiles": 6.67,
+      "speed": 720,
+      "reloadMs": 2000
+    },
+    "16000031": {
+      "hp": 3700,
+      "damagePerShot": 760,
+      "damagePerBullet": 760,
+      "bullets": 1,
+      "rangeTiles": 7,
+      "speed": 720,
+      "reloadMs": 1600
+    },
+    "16000032": {
+      "hp": 3500,
+      "damagePerShot": 320,
+      "damagePerBullet": 320,
+      "bullets": 1,
+      "rangeTiles": 8.33,
+      "speed": 820,
+      "reloadMs": 1300
+    },
+    "16000034": {
+      "hp": 5000,
+      "damagePerShot": 0,
+      "damagePerBullet": 0,
+      "bullets": 1,
+      "rangeTiles": 3.33,
+      "speed": 770,
+      "reloadMs": 1800
+    },
+    "16000035": {
+      "hp": 4000,
+      "damagePerShot": 1800,
+      "damagePerBullet": 300,
+      "bullets": 6,
+      "rangeTiles": 8.33,
+      "speed": 720,
+      "reloadMs": 1200
+    },
+    "16000036": {
+      "hp": 2500,
+      "damagePerShot": 2400,
+      "damagePerBullet": 800,
+      "bullets": 3,
+      "rangeTiles": 8.67,
+      "speed": 720,
+      "reloadMs": 1800
+    },
+    "16000037": {
+      "hp": 3200,
+      "damagePerShot": 1100,
+      "damagePerBullet": 1100,
+      "bullets": 1,
+      "rangeTiles": 5,
+      "speed": 720,
+      "reloadMs": 1500
+    },
+    "16000038": {
+      "hp": 3300,
+      "damagePerShot": 1180,
+      "damagePerBullet": 1180,
+      "bullets": 1,
+      "rangeTiles": 6.67,
+      "speed": 680,
+      "reloadMs": 2000
+    },
+    "16000039": {
+      "hp": 3600,
+      "damagePerShot": 1100,
+      "damagePerBullet": 1100,
+      "bullets": 1,
+      "rangeTiles": 8.67,
+      "speed": 720,
+      "reloadMs": 1600
+    },
+    "16000040": {
+      "hp": 3400,
+      "damagePerShot": 210,
+      "damagePerBullet": 210,
+      "bullets": 1,
+      "rangeTiles": 8.33,
+      "speed": 720,
+      "reloadMs": 220
+    },
+    "16000041": {
+      "hp": 3500,
+      "damagePerShot": 440,
+      "damagePerBullet": 440,
+      "bullets": 1,
+      "rangeTiles": 9.33,
+      "speed": 720,
+      "reloadMs": 1100
+    },
+    "16000042": {
+      "hp": 2600,
+      "damagePerShot": 0,
+      "damagePerBullet": 0,
+      "bullets": 1,
+      "rangeTiles": 10,
+      "speed": 720,
+      "reloadMs": 1450
+    },
+    "16000043": {
+      "hp": 3700,
+      "damagePerShot": 540,
+      "damagePerBullet": 540,
+      "bullets": 1,
+      "rangeTiles": 2,
+      "speed": 820,
+      "reloadMs": 700
+    },
+    "16000044": {
+      "hp": 3000,
+      "damagePerShot": 1200,
+      "damagePerBullet": 600,
+      "bullets": 2,
+      "rangeTiles": 9,
+      "speed": 720,
+      "reloadMs": 1400
+    },
+    "16000045": {
+      "hp": 3500,
+      "damagePerShot": 540,
+      "damagePerBullet": 540,
+      "bullets": 1,
+      "rangeTiles": 7.67,
+      "speed": 720,
+      "reloadMs": 1500
+    },
+    "16000046": {
+      "hp": 2900,
+      "damagePerShot": 1040,
+      "damagePerBullet": 1040,
+      "bullets": 1,
+      "rangeTiles": 10,
+      "speed": 720,
+      "reloadMs": 1400
+    },
+    "16000047": {
+      "hp": 3800,
+      "damagePerShot": 1160,
+      "damagePerBullet": 1160,
+      "bullets": 1,
+      "rangeTiles": 7.67,
+      "speed": 720,
+      "reloadMs": 2100
+    },
+    "16000048": {
+      "hp": 3000,
+      "damagePerShot": 1040,
+      "damagePerBullet": 1040,
+      "bullets": 1,
+      "rangeTiles": 7.67,
+      "speed": 720,
+      "reloadMs": 2000
+    },
+    "16000049": {
+      "hp": 5000,
+      "damagePerShot": 1260,
+      "damagePerBullet": 420,
+      "bullets": 3,
+      "rangeTiles": 2.67,
+      "speed": 770,
+      "reloadMs": 1000
+    },
+    "16000050": {
+      "hp": 3700,
+      "damagePerShot": 840,
+      "damagePerBullet": 280,
+      "bullets": 3,
+      "rangeTiles": 8.33,
+      "speed": 720,
+      "reloadMs": 1600
+    },
+    "16000051": {
+      "hp": 5900,
+      "damagePerShot": 800,
+      "damagePerBullet": 800,
+      "bullets": 1,
+      "rangeTiles": 4.67,
+      "speed": 720,
+      "reloadMs": 1400
+    },
+    "16000052": {
+      "hp": 2400,
+      "damagePerShot": 300,
+      "damagePerBullet": 300,
+      "bullets": 1,
+      "rangeTiles": 9,
+      "speed": 820,
+      "reloadMs": 1300
+    },
+    "16000053": {
+      "hp": 4000,
+      "damagePerShot": 280,
+      "damagePerBullet": 280,
+      "bullets": 1,
+      "rangeTiles": 9,
+      "speed": 720,
+      "reloadMs": 1700
+    },
+    "16000054": {
+      "hp": 4800,
+      "damagePerShot": 1360,
+      "damagePerBullet": 1360,
+      "bullets": 1,
+      "rangeTiles": 2.67,
+      "speed": 770,
+      "reloadMs": 1000
+    },
+    "16000056": {
+      "hp": 3100,
+      "damagePerShot": 400,
+      "damagePerBullet": 400,
+      "bullets": 1,
+      "rangeTiles": 9.33,
+      "speed": 720,
+      "reloadMs": 1600
+    },
+    "16000057": {
+      "hp": 3400,
+      "damagePerShot": 4000,
+      "damagePerBullet": 1000,
+      "bullets": 4,
+      "rangeTiles": 4,
+      "speed": 720,
+      "reloadMs": 1500
+    },
+    "16000058": {
+      "hp": 5000,
+      "damagePerShot": 1120,
+      "damagePerBullet": 1120,
+      "bullets": 1,
+      "rangeTiles": 9,
+      "speed": 620,
+      "reloadMs": 1000
+    },
+    "16000059": {
+      "hp": 3600,
+      "damagePerShot": 500,
+      "damagePerBullet": 500,
+      "bullets": 1,
+      "rangeTiles": 9,
+      "speed": 720,
+      "reloadMs": 1500
+    },
+    "16000060": {
+      "hp": 5700,
+      "damagePerShot": 800,
+      "damagePerBullet": 800,
+      "bullets": 1,
+      "rangeTiles": 3,
+      "speed": 770,
+      "reloadMs": 1600
+    },
+    "16000061": {
+      "hp": 3300,
+      "damagePerShot": 1080,
+      "damagePerBullet": 1080,
+      "bullets": 1,
+      "rangeTiles": 9.33,
+      "speed": 720,
+      "reloadMs": 1500
+    },
+    "16000062": {
+      "hp": 5000,
+      "damagePerShot": 4140,
+      "damagePerBullet": 1380,
+      "bullets": 3,
+      "rangeTiles": 5.33,
+      "speed": 770,
+      "reloadMs": 1800
+    },
+    "16000063": {
+      "hp": 3800,
+      "damagePerShot": 2680,
+      "damagePerBullet": 670,
+      "bullets": 4,
+      "rangeTiles": 8.33,
+      "speed": 770,
+      "reloadMs": 1900
+    },
+    "16000064": {
+      "hp": 3400,
+      "damagePerShot": 1280,
+      "damagePerBullet": 1280,
+      "bullets": 1,
+      "rangeTiles": 9,
+      "speed": 720,
+      "reloadMs": 1400
+    },
+    "16000065": {
+      "hp": 3000,
+      "damagePerShot": 1400,
+      "damagePerBullet": 1400,
+      "bullets": 1,
+      "rangeTiles": 9,
+      "speed": 720,
+      "reloadMs": 1500
+    },
+    "16000066": {
+      "hp": 4100,
+      "damagePerShot": 700,
+      "damagePerBullet": 700,
+      "bullets": 1,
+      "rangeTiles": 10,
+      "speed": 720,
+      "reloadMs": 1500
+    },
+    "16000067": {
+      "hp": 3300,
+      "damagePerShot": 0,
+      "damagePerBullet": 0,
+      "bullets": 1,
+      "rangeTiles": 7.33,
+      "speed": 720,
+      "reloadMs": 2000
+    },
+    "16000068": {
+      "hp": 4000,
+      "damagePerShot": 1500,
+      "damagePerBullet": 1500,
+      "bullets": 1,
+      "rangeTiles": 8.67,
+      "speed": 720,
+      "reloadMs": 1500
+    },
+    "16000069": {
+      "hp": 5200,
+      "damagePerShot": 0,
+      "damagePerBullet": 0,
+      "bullets": 1,
+      "rangeTiles": 3.33,
+      "speed": 720,
+      "reloadMs": 250
+    },
+    "16000070": {
+      "hp": 3500,
+      "damagePerShot": 800,
+      "damagePerBullet": 800,
+      "bullets": 1,
+      "rangeTiles": 5.33,
+      "speed": 820,
+      "reloadMs": 1200
+    },
+    "16000071": {
+      "hp": 5200,
+      "damagePerShot": 1200,
+      "damagePerBullet": 1200,
+      "bullets": 1,
+      "rangeTiles": 3.33,
+      "speed": 770,
+      "reloadMs": 1500
+    },
+    "16000072": {
+      "hp": 4300,
+      "damagePerShot": 280,
+      "damagePerBullet": 280,
+      "bullets": 1,
+      "rangeTiles": 9,
+      "speed": 720,
+      "reloadMs": 1500
+    },
+    "16000073": {
+      "hp": 4700,
+      "damagePerShot": 540,
+      "damagePerBullet": 540,
+      "bullets": 1,
+      "rangeTiles": 6.67,
+      "speed": 770,
+      "reloadMs": 2000
+    },
+    "16000074": {
+      "hp": 3700,
+      "damagePerShot": 800,
+      "damagePerBullet": 800,
+      "bullets": 1,
+      "rangeTiles": 9,
+      "speed": 720,
+      "reloadMs": 2000
+    },
+    "16000075": {
+      "hp": 3500,
+      "damagePerShot": 1140,
+      "damagePerBullet": 1140,
+      "bullets": 1,
+      "rangeTiles": 4,
+      "speed": 820,
+      "reloadMs": 2400
+    },
+    "16000076": {
+      "hp": 3100,
+      "damagePerShot": 1000,
+      "damagePerBullet": 1000,
+      "bullets": 1,
+      "rangeTiles": 3.67,
+      "speed": 820,
+      "reloadMs": 800
+    },
+    "16000077": {
+      "hp": 3000,
+      "damagePerShot": 700,
+      "damagePerBullet": 700,
+      "bullets": 1,
+      "rangeTiles": 7.33,
+      "speed": 770,
+      "reloadMs": 2200
+    },
+    "16000078": {
+      "hp": 3800,
+      "damagePerShot": 460,
+      "damagePerBullet": 460,
+      "bullets": 1,
+      "rangeTiles": 8,
+      "speed": 720,
+      "reloadMs": 1500
+    },
+    "16000079": {
+      "hp": 3100,
+      "damagePerShot": 2000,
+      "damagePerBullet": 2000,
+      "bullets": 1,
+      "rangeTiles": 10,
+      "speed": 820,
+      "reloadMs": 100
+    },
+    "16000080": {
+      "hp": 5600,
+      "damagePerShot": 700,
+      "damagePerBullet": 700,
+      "bullets": 1,
+      "rangeTiles": 4,
+      "speed": 720,
+      "reloadMs": 1000
+    },
+    "16000081": {
+      "hp": 4200,
+      "damagePerShot": 1060,
+      "damagePerBullet": 1060,
+      "bullets": 1,
+      "rangeTiles": 2,
+      "speed": 820,
+      "reloadMs": 800
+    },
+    "16000082": {
+      "hp": 2600,
+      "damagePerShot": 660,
+      "damagePerBullet": 660,
+      "bullets": 1,
+      "rangeTiles": 6.33,
+      "speed": 720,
+      "reloadMs": 2400
+    },
+    "16000083": {
+      "hp": 3800,
+      "damagePerShot": 700,
+      "damagePerBullet": 700,
+      "bullets": 1,
+      "rangeTiles": 7.67,
+      "speed": 720,
+      "reloadMs": 2000
+    },
+    "16000084": {
+      "hp": 3600,
+      "damagePerShot": 500,
+      "damagePerBullet": 500,
+      "bullets": 1,
+      "rangeTiles": 5,
+      "speed": 770,
+      "reloadMs": 1500
+    },
+    "16000085": {
+      "hp": 4000,
+      "damagePerShot": 750,
+      "damagePerBullet": 750,
+      "bullets": 1,
+      "rangeTiles": 2.67,
+      "speed": 820,
+      "reloadMs": 1000
+    },
+    "16000086": {
+      "hp": 3700,
+      "damagePerShot": 800,
+      "damagePerBullet": 800,
+      "bullets": 1,
+      "rangeTiles": 3.67,
+      "speed": 820,
+      "reloadMs": 800
+    },
+    "16000087": {
+      "hp": 3100,
+      "damagePerShot": 1000,
+      "damagePerBullet": 1000,
+      "bullets": 1,
+      "rangeTiles": 6.33,
+      "speed": 720,
+      "reloadMs": 1600
+    },
+    "16000088": {
+      "hp": 3000,
+      "damagePerShot": 1080,
+      "damagePerBullet": 1080,
+      "bullets": 1,
+      "rangeTiles": 9,
+      "speed": 720,
+      "reloadMs": 1400
+    },
+    "16000089": {
+      "hp": 3300,
+      "damagePerShot": 1260,
+      "damagePerBullet": 1260,
+      "bullets": 1,
+      "rangeTiles": 7.67,
+      "speed": 720,
+      "reloadMs": 1700
+    },
+    "16000090": {
+      "hp": 5400,
+      "damagePerShot": 1800,
+      "damagePerBullet": 900,
+      "bullets": 2,
+      "rangeTiles": 6.33,
+      "speed": 770,
+      "reloadMs": 1800
+    },
+    "16000091": {
+      "hp": 3500,
+      "damagePerShot": 600,
+      "damagePerBullet": 600,
+      "bullets": 1,
+      "rangeTiles": 8,
+      "speed": 720,
+      "reloadMs": 0
+    },
+    "16000092": {
+      "hp": 3700,
+      "damagePerShot": 2700,
+      "damagePerBullet": 900,
+      "bullets": 3,
+      "rangeTiles": 8.33,
+      "speed": 770,
+      "reloadMs": 1300
+    },
+    "16000093": {
+      "hp": 3700,
+      "damagePerShot": 750,
+      "damagePerBullet": 750,
+      "bullets": 1,
+      "rangeTiles": 8.33,
+      "speed": 770,
+      "reloadMs": 1500
+    },
+    "16000094": {
+      "hp": 4100,
+      "damagePerShot": 750,
+      "damagePerBullet": 750,
+      "bullets": 1,
+      "rangeTiles": 2.67,
+      "speed": 820,
+      "reloadMs": 1000
+    },
+    "16000095": {
+      "hp": 3900,
+      "damagePerShot": 1300,
+      "damagePerBullet": 1300,
+      "bullets": 1,
+      "rangeTiles": 2.67,
+      "speed": 770,
+      "reloadMs": 2100
+    },
+    "16000096": {
+      "hp": 5200,
+      "damagePerShot": 1400,
+      "damagePerBullet": 1400,
+      "bullets": 1,
+      "rangeTiles": 3.33,
+      "speed": 770,
+      "reloadMs": 1500
+    },
+    "16000097": {
+      "hp": 3600,
+      "damagePerShot": 800,
+      "damagePerBullet": 800,
+      "bullets": 1,
+      "rangeTiles": 8,
+      "speed": 770,
+      "reloadMs": 1400
+    },
+    "16000098": {
+      "hp": 3200,
+      "damagePerShot": 950,
+      "damagePerBullet": 950,
+      "bullets": 1,
+      "rangeTiles": 7.33,
+      "speed": 770,
+      "reloadMs": 1800
+    },
+    "16000099": {
+      "hp": 3000,
+      "damagePerShot": 950,
+      "damagePerBullet": 950,
+      "bullets": 1,
+      "rangeTiles": 10,
+      "speed": 720,
+      "reloadMs": 0
+    },
+    "16000100": {
+      "hp": 4100,
+      "damagePerShot": 600,
+      "damagePerBullet": 600,
+      "bullets": 1,
+      "rangeTiles": 3.33,
+      "speed": 820,
+      "reloadMs": 220
+    },
+    "16000101": {
+      "hp": 3900,
+      "damagePerShot": 280,
+      "damagePerBullet": 280,
+      "bullets": 1,
+      "rangeTiles": 7.33,
+      "speed": 770,
+      "reloadMs": 1700
+    },
+    "16000102": {
+      "hp": 3400,
+      "damagePerShot": 1200,
+      "damagePerBullet": 600,
+      "bullets": 2,
+      "rangeTiles": 7.33,
+      "speed": 720,
+      "reloadMs": 1600
+    },
+    "16000103": {
+      "hp": 3400,
+      "damagePerShot": 300,
+      "damagePerBullet": 300,
+      "bullets": 1,
+      "rangeTiles": 6,
+      "speed": 770,
+      "reloadMs": 800
+    },
+    "16000104": {
+      "hp": 5600,
+      "damagePerShot": 700,
+      "damagePerBullet": 700,
+      "bullets": 1,
+      "rangeTiles": 2.67,
+      "speed": 770,
+      "reloadMs": 1200
+    },
+    "16000105": {
+      "hp": 4000,
+      "damagePerShot": 540,
+      "damagePerBullet": 540,
+      "bullets": 1,
+      "rangeTiles": 5.67,
+      "speed": 820,
+      "reloadMs": 1400
+    },
+    "16000106": {
+      "hp": 5000,
+      "damagePerShot": 0,
+      "damagePerBullet": 0,
+      "bullets": 1,
+      "rangeTiles": 0,
+      "speed": 540,
+      "reloadMs": 2200
+    },
+    "16000107": {
+      "hp": 3800,
+      "damagePerShot": 1100,
+      "damagePerBullet": 1100,
+      "bullets": 1,
+      "rangeTiles": 3.67,
+      "speed": 820,
+      "reloadMs": 100
+    },
+    "16000108": {
+      "hp": 2000,
+      "damagePerShot": 1100,
+      "damagePerBullet": 1100,
+      "bullets": 1,
+      "rangeTiles": 8,
+      "speed": 770,
+      "reloadMs": 1450
+    }
+  }
+}

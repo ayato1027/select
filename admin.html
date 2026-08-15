@@ -4,8 +4,8 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>データ管理 | ブロスタ ピック支援</title>
-<link rel="stylesheet" href="css/style.css" />
-<link rel="stylesheet" href="css/admin.css" />
+<link rel="stylesheet" href="css/style.css?v=14" />
+<link rel="stylesheet" href="css/admin.css?v=14" />
 </head>
 <body>
 <header class="app-header">
@@ -17,9 +17,38 @@
 
 <main id="admin" class="app admin-app" hidden>
 
+  <section class="section backup-section">
+    <h2>バックアップ / 復元</h2>
+    <p class="hint">
+      Tier表・自分の相性表・各種手動設定は、この端末のこのブラウザの中(localStorage)にのみ保存されています。
+      ブラウザのデータ消去、機種変更、ブラウザの再インストールなどで消えてしまうため、
+      定期的にファイルへバックアップすることを強くおすすめします。
+    </p>
+    <div class="backup-actions">
+      <button id="backupDownloadBtn" class="save-btn">バックアップをダウンロード</button>
+      <label class="backup-restore-label" for="backupRestoreInput">バックアップから復元</label>
+      <input type="file" id="backupRestoreInput" accept="application/json" hidden />
+    </div>
+    <div id="backupStatus" class="hint"></div>
+  </section>
+
   <section class="section">
     <h2>データ最終更新日時</h2>
     <ul class="status-list" id="statusList"></ul>
+    <p class="hint">
+      勝率・マップ適性・相性はBrawl Time Ninjaから、体力・攻撃力・射程はゲーム内データから取得しており、
+      自動では更新されません。下のボタンでGitHub Actionsの実行画面を開き、「Run workflow」を押すと
+      好きなタイミングで再取得できます(数分かかります。完了後、このページの表示に反映されるまで
+      さらに数分かかることがあります)。
+    </p>
+    <a
+      class="update-data-btn"
+      href="https://github.com/ayato1027/select/actions/workflows/update-data.yml"
+      target="_blank"
+      rel="noopener"
+    >
+      データ更新の実行画面を開く ↗
+    </a>
   </section>
 
   <section class="section">
@@ -81,8 +110,8 @@
 
 </main>
 
-<script src="js/api.js"></script>
-<script src="js/score.js"></script>
-<script src="js/admin.js"></script>
+<script src="js/api.js?v=14"></script>
+<script src="js/score.js?v=14"></script>
+<script src="js/admin.js?v=14"></script>
 </body>
 </html>

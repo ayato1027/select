@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>キャラ相性表 | ブロスタ ピック支援</title>
+<link rel="stylesheet" href="css/style.css?v=8" />
+<link rel="stylesheet" href="css/matchup.css?v=8" />
+</head>
+<body>
+<header class="app-header">
+  <div class="app-title-group">
+    <h1>キャラ相性表</h1>
+    <span class="app-subtitle">対面・味方の実データ</span>
+  </div>
+  <a class="admin-link" href="index.html" title="メイン画面へ">← 戻る</a>
+</header>
+
+<div id="loading" class="loading">読み込み中...</div>
+
+<main id="muApp" class="app mu-app" hidden>
+
+  <section class="section" id="muPickSection">
+    <div class="hint">相性を見たいキャラを選んでください。</div>
+    <input type="text" id="muPickerSearch" class="picker-search" placeholder="キャラ名で検索" />
+    <div class="sort-row">
+      <label for="muPickerSort">並び替え</label>
+      <select id="muPickerSort" class="sort-select">
+        <option value="winRate">全体勝率順</option>
+        <option value="name">名前順</option>
+      </select>
+    </div>
+    <div class="mu-picker-grid" id="muPickerGrid"></div>
+  </section>
+
+  <section class="section" id="muResultSection" hidden>
+    <div class="mu-selected-row">
+      <img id="muSelectedIcon" class="mu-selected-icon" alt="" />
+      <div class="mu-selected-main">
+        <div class="mu-selected-name" id="muSelectedName"></div>
+        <div class="mu-selected-role" id="muSelectedRole"></div>
+      </div>
+      <button class="mu-change-btn" id="muChangeBtn">キャラを変更</button>
+    </div>
+
+    <div class="wr-view-tabs">
+      <button class="wr-view-tab" data-view="enemy">対面(相手にいる時)</button>
+      <button class="wr-view-tab" data-view="ally">味方(一緒にいる時)</button>
+    </div>
+
+    <input type="text" id="muListSearch" class="picker-search" placeholder="相手/味方キャラ名で検索" />
+    <div class="sort-row">
+      <label for="muListSort">並び替え</label>
+      <select id="muListSort" class="sort-select">
+        <option value="value">相性順(良い順)</option>
+        <option value="winRate">実績勝率順</option>
+        <option value="battles">試合数順</option>
+        <option value="name">名前順</option>
+      </select>
+    </div>
+    <div class="mu-status" id="muStatus"></div>
+
+    <div class="mu-list" id="muList"></div>
+  </section>
+
+</main>
+
+<script src="js/api.js?v=8"></script>
+<script src="js/score.js?v=8"></script>
+<script src="js/matchup.js?v=8"></script>
+</body>
+</html>

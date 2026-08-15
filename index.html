@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 <title>ブロスタ ピック支援</title>
-<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/style.css?v=13" />
 </head>
 <body>
 <header class="app-header">
@@ -12,7 +12,13 @@
     <h1>ブロスタ ピック支援</h1>
     <span class="app-subtitle">ガチバトル専用</span>
   </div>
-  <a class="admin-link" href="admin.html" title="データ管理">⚙</a>
+  <div class="header-links">
+    <a class="admin-link" href="matchup.html" title="キャラ相性表(統計)">⚔️</a>
+    <a class="admin-link" href="mymatchup.html" title="自分の相性表(手動)">✍️</a>
+    <a class="admin-link" href="winrate.html" title="勝率ランキング">📊</a>
+    <a class="admin-link" href="tier.html" title="マイTier表">🏆</a>
+    <a class="admin-link" href="admin.html" title="データ管理">⚙</a>
+  </div>
 </header>
 
 <div id="loading" class="loading">読み込み中...</div>
@@ -27,6 +33,24 @@
   </section>
 
   <section class="section draft-section">
+    <div class="ban-btn-row">
+      <button class="ban-toggle" id="banToggle">BAN設定 <span id="banCount"></span></button>
+      <button class="ban-toggle scan-open-btn" id="scanOpenBtn">📷 カメラでBAN読取</button>
+    </div>
+
+    <div class="draft-side-picker" id="draftSidePicker">
+      <div class="draft-side-label">ガチバトル形式: あなたは先行/後攻どちらですか?</div>
+      <div class="draft-side-buttons">
+        <button class="draft-side-btn" id="sideFirstBtn">先行(1人→2人)</button>
+        <button class="draft-side-btn" id="sideSecondBtn">後攻(2人→1人)</button>
+      </div>
+      <button class="draft-side-free" id="sideFreeBtn">順番を気にせず自由入力する</button>
+    </div>
+
+    <div class="draft-turn-bar" id="draftTurnBar" hidden></div>
+    <div class="draft-turn-status" id="draftTurnStatus" hidden></div>
+    <button class="draft-self-next-btn" id="draftSelfNextBtn" hidden>記録せずスキップ</button>
+
     <div class="draft-row">
       <div class="draft-group">
         <div class="draft-label">相手 <span class="draft-sub">(最大3・任意)</span></div>
@@ -36,17 +60,33 @@
         <div class="draft-label">味方 <span class="draft-sub">(最大2・任意)</span></div>
         <div class="slot-row" id="allySlots"></div>
       </div>
+      <div class="draft-group">
+        <div class="draft-label">自分 <span class="draft-sub">(1・任意)</span></div>
+        <div class="slot-row" id="selfSlot"></div>
+      </div>
     </div>
-    <div class="ban-btn-row">
-      <button class="ban-toggle" id="banToggle">BAN設定 <span id="banCount"></span></button>
-      <button class="ban-toggle scan-open-btn" id="scanOpenBtn">📷 カメラでBAN読取</button>
+
+    <div class="draft-reset-row">
+      <button class="draft-reset-btn" id="draftResetSideBtn" hidden>先行/後攻の選択に戻す</button>
+      <button class="draft-reset-btn draft-reset-all" id="draftResetAllBtn">次の試合へ(ドラフトを全リセット)</button>
     </div>
+  </section>
+
+  <section class="section comp-section">
+    <div class="ranking-header">
+      <h2>チーム構成分析</h2>
+    </div>
+    <div id="compAnalysis"></div>
   </section>
 
   <section class="section ranking-section">
     <div class="ranking-header">
       <h2>おすすめランキング</h2>
       <span class="ranking-updated" id="dataStatus"></span>
+    </div>
+    <div class="sort-row">
+      <label for="sortSelect">並び替え</label>
+      <select id="sortSelect" class="sort-select"></select>
     </div>
     <div class="ranking-list" id="rankingList"></div>
     <button class="show-all-btn" id="showAllBtn" hidden>すべて表示</button>
@@ -95,9 +135,9 @@
   </div>
 </div>
 
-<script src="js/api.js"></script>
-<script src="js/score.js"></script>
-<script src="js/scan.js"></script>
-<script src="js/app.js"></script>
+<script src="js/api.js?v=13"></script>
+<script src="js/score.js?v=13"></script>
+<script src="js/scan.js?v=13"></script>
+<script src="js/app.js?v=13"></script>
 </body>
 </html>

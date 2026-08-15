@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>自分の相性表 | ブロスタ ピック支援</title>
+<link rel="stylesheet" href="css/style.css?v=13" />
+<link rel="stylesheet" href="css/tier.css?v=13" />
+<link rel="stylesheet" href="css/mymatchup.css?v=13" />
+</head>
+<body>
+<header class="app-header">
+  <div class="app-title-group">
+    <h1>自分の相性表</h1>
+    <span class="app-subtitle">手動設定</span>
+  </div>
+  <div class="header-links">
+    <a class="admin-link" href="admin.html" title="バックアップ/復元">💾</a>
+    <a class="admin-link" href="index.html" title="メイン画面へ">← 戻る</a>
+  </div>
+</header>
+
+<div id="loading" class="loading">読み込み中...</div>
+
+<main id="mmApp" class="app mm-app" hidden>
+
+  <section class="section" id="mmPickSection">
+    <p class="hint">
+      基準にするキャラを選んでください。そのキャラから見た全107体との相性を、
+      7段階のバーにドラッグして設定できます。
+    </p>
+    <input type="text" id="mmPickerSearch" class="picker-search" placeholder="キャラ名で検索" />
+    <div class="sort-row">
+      <label for="mmPickerSort">並び替え</label>
+      <select id="mmPickerSort" class="sort-select">
+        <option value="progress">設定済みが少ない順</option>
+        <option value="winRate">全体勝率順</option>
+        <option value="name">名前順</option>
+      </select>
+    </div>
+    <div class="mm-actions">
+      <button id="mmResetAll" class="tier-reset-btn">全キャラの相性をリセット</button>
+      <span id="mmPickerStatus" class="mm-picker-status"></span>
+    </div>
+    <div class="mu-picker-grid" id="mmPickerGrid"></div>
+  </section>
+
+  <section class="section" id="mmEditSection" hidden>
+    <div class="mu-selected-row">
+      <img id="mmSelectedIcon" class="mu-selected-icon" alt="" />
+      <div class="mu-selected-main">
+        <div class="mu-selected-name" id="mmSelectedName"></div>
+        <div class="mu-selected-role" id="mmSelectedRole"></div>
+      </div>
+      <button class="mu-change-btn" id="mmChangeBtn">キャラ変更</button>
+    </div>
+
+    <div class="wr-view-tabs">
+      <button class="wr-view-tab" data-view="vsEnemy">対面(相手にいる時)</button>
+      <button class="wr-view-tab" data-view="withAlly">味方(一緒にいる時)</button>
+    </div>
+
+    <div class="mm-notice" id="mmNotice"></div>
+
+    <input type="text" id="mmListSearch" class="picker-search" placeholder="相手キャラ名で検索" />
+    <div class="mm-roles" id="mmRoles"></div>
+
+    <div class="mm-select-bar" id="mmSelectBar">
+      <span class="mm-select-count" id="mmSelectCount">タップで複数選択できます</span>
+      <button id="mmSelectVisible" class="mm-select-btn">表示中を全選択</button>
+      <button id="mmSelectClear" class="mm-select-btn">選択解除</button>
+      <button id="mmResetSelected" class="mm-select-btn mm-reset-mini" hidden>選択中をリセット</button>
+    </div>
+    <div class="mm-bulk-hint" id="mmBulkHint" hidden></div>
+
+    <div class="mm-actions">
+      <button id="mmResetVisible" class="tier-reset-btn">表示中をリセット</button>
+      <button id="mmResetBtn" class="tier-reset-btn">このタブを全リセット</button>
+      <span id="mmSaveStatus" class="tier-save-status"></span>
+    </div>
+  </section>
+
+  <section class="section mm-board-section" id="mmBoardSection" hidden>
+    <div class="tier-board" id="mmBoard"></div>
+  </section>
+
+</main>
+
+<div class="tier-drag-ghost" id="mmDragGhost" hidden></div>
+
+<script src="js/api.js?v=13"></script>
+<script src="js/score.js?v=13"></script>
+<script src="js/mymatchup.js?v=13"></script>
+</body>
+</html>
