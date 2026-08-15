@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T07:46:00.471Z",
+  "updatedAt": "2026-08-15T11:58:46.440Z",
   "sourceVersion": "68.250",
   "note": "ゲーム内CSV(characters.csv/skills.csv)由来。すべてパワーレベル1基準の値で、実戦のレベル11ではおおよそ1.4倍になる。相対比較にのみ使う想定。rangeTilesはタイル単位。",
   "medians": {
